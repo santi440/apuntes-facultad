@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "1b5b5701d142a143",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c2dec15bc2d051e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aaf7e845d313f2b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ing software 1/Casos de Uso.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8be6f6a81a94c5d5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-09-16 17.04.35.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d79cbed95a84d2c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "09456b719e0996c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1e2410a4e12c561",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "abd0306c82c8bc9f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "da8ddf16a61f6687",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c949a216266940f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "39aa9f72691695cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6908d4035db98218",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ing software 1/Casos de Uso.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "795c796a0dadc8a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ing software 1/Casos de Uso.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b357cc6efbbc3d5d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "be63d86dbddb0a48",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ing software 1/Casos de Uso.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "aaf7e845d313f2b4",
+  "lastOpenFiles": [
+    "DBD/Modelo Conceptual.md",
+    "DBD/Modelado.md",
+    "Excalidraw/Drawing 2024-09-16 17.04.35.excalidraw.md",
+    "Excalidraw",
+    "DBD/Adjuntos/Pasted image 20240915171841.png",
+    "DBD/Adjuntos/Pasted image 20240915171658.png",
+    "DBD/Adjuntos",
+    "Ing software 1/Casos de Uso.md",
+    "DBD/Modelo Físico.md",
+    "DBD/Modelo Lógico.md",
+    "OO1",
+    "Ing software 1",
+    "ISO",
+    "DBD"
+  ]
+}

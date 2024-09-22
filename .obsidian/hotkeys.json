@@ -1,0 +1,36 @@
+{
+  "editor:table-col-after": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "+"
+    }
+  ],
+  "editor:table-col-delete": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
+    }
+  ],
+  "editor:table-row-after": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "+"
+    }
+  ],
+  "editor:table-row-delete": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    }
+  ]
+}

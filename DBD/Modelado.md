@@ -11,11 +11,11 @@ aquellos rasgos que no son de interés.
 (La clasificación permite identificar los campos o atributos de los elementos individuales de datos. La agregación, en tanto, permite agrupar los campos o atributos formando registros de datos.)
 ### Abstracción de clasificación
 Definir una clase. Una clase es una declaración o abstracción de objetos, lo que significa que es la definición de un objeto. Una clase se origina a partir de las características comunes que tienen los objetos que la componen. Con herencia múltiple. Se gráfica como árbol, la clase se define al tope del árbol, y los elementos de la clase, como hojas unidas al tope por líneas punteada. Relación **es un miembro de**
-![[Pasted image 20240915171658.png]]
+![[Clasificacion.png]]
 
 ### Abstracción de agregación 
 Define una nueva clase a partir de un conjunto de otras clases que representan sus partes componentes. En este caso, las clases hoja representan una relación **es_parte_de** de la clase raíz.
-![[Pasted image 20240915171841.png]]
+![[Agregacion.png]]
 ### Abstracción de generalización
 Una abstracción de generalización define una relación de subconjunto entre los elementos de dos o más clases. Ej: Alumno y Docente -> Persona
 El proceso inverso es la especialización. En una generalización, las especialidades (hijos) heredan las características del padre. Es una jerarquía o relación **es un**.

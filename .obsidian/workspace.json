@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0eac6a6d2c44c120",
+        "id": "91d2981dac9ecb34",
         "type": "tabs",
         "children": [
           {
-            "id": "7438fd4a7b9ad55f",
+            "id": "c24954ca307b69e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 2.md",
+                "file": "Ing software 1/Practica/Casos de uso 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 2.md",
+                "file": "Ing software 1/Practica/Casos de uso 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 2.md",
+                "file": "Ing software 1/Practica/Casos de uso 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 2.md"
+                "file": "Ing software 1/Practica/Casos de uso 3.md"
               }
             }
           }
@@ -147,12 +147,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7438fd4a7b9ad55f",
+  "active": "c24954ca307b69e0",
   "lastOpenFiles": [
+    "Ing software 1/Practica/Casos de uso 2.md",
+    "Ing software 1/Practica/Casos de uso 3.md",
+    "Ing software 1/ej2p4.xmi",
     "Excalidraw/Drawing 2024-09-24 14.48.24.excalidraw.md",
     "Excalidraw/DBD 7.md",
     "OO1/Teoria 19_09.md",
-    "Ing software 1/Practica/Casos de uso 2.md",
     "Ing software 1/Practica/Adjuntos/UML 2.png",
     "Ing software 1/Practica/Casos de uso 1.md",
     "DBD/Adjuntos/Agregacion.png",

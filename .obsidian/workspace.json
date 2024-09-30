@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3bd88818b4da277f",
+        "id": "9847c4ef3c04e36e",
         "type": "tabs",
         "children": [
           {
-            "id": "6385076413d2a357",
+            "id": "898e5c67a480b7bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISO/06 - Memoria I.md",
+                "file": "Ing software 1/Teoría 30_09.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c949a216266940f5",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISO/06 - Memoria I.md",
+                "file": "Ing software 1/Teoría 30_09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISO/06 - Memoria I.md",
+                "file": "Ing software 1/Teoría 30_09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISO/06 - Memoria I.md"
+                "file": "Ing software 1/Teoría 30_09.md"
               }
             }
           }
@@ -148,48 +147,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6385076413d2a357",
+  "active": "898e5c67a480b7bd",
   "lastOpenFiles": [
-    "ISO/Adjuntos/segmentacion.png",
-    "ISO/Adjuntos/Paginacion.png",
-    "ISO/Adjuntos/Deberes de SO en memoria.png",
-    "ISO/04 - Procesos III.md",
-    "ISO/06 - Memoria I.md",
-    "ISO/05 - Procesos IV.md",
-    "Ing software 1/Teoría 30_09.md",
-    "ISO/Adjuntos/apropiaciones.png",
-    "ISO/Adjuntos/fork.png",
     "ISO/03 - Procesos II.md",
-    "Ing software 1/Casos de Uso.md",
-    "Ing software 1/Practica/Adjuntos/CU 1.png",
-    "Ing software 1/Practica/Casos de uso 3.md",
-    "Ing software 1/Practica/Adjuntos/CU 3.png",
-    "Ing software 1/Practica/Adjuntos/CU 2.png",
+    "ISO/04 - Procesos III.md",
+    "ISO/05 - Procesos IV.md",
+    "ISO/06 - Memoria I.md",
     "ISO/02 - Procesos I.md",
     "ISO/01 - Problemas a evitar por el SO.md",
     "ISO/00 - Sistema Operativo.md",
-    "ISO/Adjuntos/Sys Call.png",
+    "Ing software 1/Teoría 30_09.md",
+    "Ing software 1/Adjuntos/Estructura de TD.png",
+    "Ing software 1/Adjuntos",
+    "Ing software 1/Casos de Uso.md",
+    "ISO/Adjuntos/segmentacion.png",
+    "ISO/Adjuntos/fork.png",
+    "ISO/Adjuntos/apropiaciones.png",
+    "ISO/Adjuntos/Paginacion.png",
+    "ISO/Adjuntos/Deberes de SO en memoria.png",
+    "DBD/Excalidraw/DBD 7.md",
+    "DBD/Excalidraw",
+    "Ing software 1/Practica/Casos de uso 1.md",
     "ISO/Adjuntos/proceso y programa.png",
     "ISO/Adjuntos/proceso graficamente.png",
+    "ISO/Adjuntos/Sys Call.png",
+    "ISO/Adjuntos/Kernel vs User.png",
     "ISO/Adjuntos",
-    "Ing software 1/Practica/Casos de uso 1.md",
-    "DBD/Modelo Lógico.md",
-    "DBD/Modelo Conceptual.md",
-    "DBD/Modelado.md",
-    "DBD/Modelo Físico.md",
-    "ISO",
+    "Ing software 1/Practica/Casos de uso 3.md",
+    "Ing software 1/Practica/Casos de uso 2.md",
     "Ing software 1/ej3p3.xmi",
     "Ing software 1/ej2p3.xmi",
-    "Ing software 1/Practica/Casos de uso 2.md",
     "Ing software 1/ej2p4.xmi",
     "Excalidraw/Drawing 2024-09-24 14.48.24.excalidraw.md",
-    "DBD/Excalidraw/DBD 7.md",
+    "Excalidraw/DBD 7.md",
     "OO1/Teoria 19_09.md",
+    "DBD/Modelado.md",
     "Ing software 1/Practica/Adjuntos",
+    "DBD/Modelo Conceptual.md",
+    "DBD/Modelo Lógico.md",
+    "DBD/Modelo Físico.md",
     "ISO",
     "Excalidraw/Drawing 2024-09-17 21.45.09.excalidraw.md",
     "Ing software 1/Practica",
-    "DBD/Excalidraw",
-    "DBD/Adjuntos"
+    "Excalidraw"
   ]
 }

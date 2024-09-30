@@ -45,3 +45,4 @@ Tiene dos niveles:
 - Level 1: Segmentación, visible para el programador. Modulariza el programa en segmentos
 - Level 2: Paginación, trasparente. Elimina la Fragmentación externa, se aplica paginación sobre cada segmento y la pagina es lo que se sube a memoria ram. Por cada segmento hay una tabla de pagina.
 Al compartir un segmento, comparto un conjunto de paginas. Por ende, se conservan las ventajas de ambas técnicas. 
+![[Segmentación Paginada.png]]

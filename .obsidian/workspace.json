@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3bd88818b4da277f",
+        "id": "ccf4c0d96dc24a43",
         "type": "tabs",
         "children": [
           {
-            "id": "6385076413d2a357",
+            "id": "23fbf0687a29c1cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISO/06 - Memoria I.md",
+                "file": "ISO/07 - Memoria II.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c949a216266940f5",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISO/06 - Memoria I.md",
+                "file": "ISO/07 - Memoria II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISO/06 - Memoria I.md",
+                "file": "ISO/07 - Memoria II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISO/06 - Memoria I.md"
+                "file": "ISO/07 - Memoria II.md"
               }
             }
           }
@@ -148,29 +147,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6385076413d2a357",
+  "active": "f1e2410a4e12c561",
   "lastOpenFiles": [
+    "ISO/06 - Memoria I.md",
+    "ISO/07 - Memoria II.md",
+    "ISO/07 - Memoria II.md",
+    "ISO/05 - Procesos IV.md",
+    "ISO/04 - Procesos III.md",
+    "ISO/02 - Procesos I.md",
+    "ISO/03 - Procesos II.md",
+    "ISO/Adjuntos/Segmentación Paginada.png",
     "ISO/Adjuntos/segmentacion.png",
     "ISO/Adjuntos/Paginacion.png",
     "ISO/Adjuntos/Deberes de SO en memoria.png",
-    "ISO/04 - Procesos III.md",
-    "ISO/06 - Memoria I.md",
-    "ISO/05 - Procesos IV.md",
     "Ing software 1/Teoría 30_09.md",
     "ISO/Adjuntos/apropiaciones.png",
     "ISO/Adjuntos/fork.png",
-    "ISO/03 - Procesos II.md",
     "Ing software 1/Casos de Uso.md",
     "Ing software 1/Practica/Adjuntos/CU 1.png",
     "Ing software 1/Practica/Casos de uso 3.md",
     "Ing software 1/Practica/Adjuntos/CU 3.png",
     "Ing software 1/Practica/Adjuntos/CU 2.png",
-    "ISO/02 - Procesos I.md",
     "ISO/01 - Problemas a evitar por el SO.md",
     "ISO/00 - Sistema Operativo.md",
     "ISO/Adjuntos/Sys Call.png",
-    "ISO/Adjuntos/proceso y programa.png",
-    "ISO/Adjuntos/proceso graficamente.png",
     "ISO/Adjuntos",
     "Ing software 1/Practica/Casos de uso 1.md",
     "DBD/Modelo Lógico.md",

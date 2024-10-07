@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4842df8e0fd53a85",
+        "id": "33345188ce04916e",
         "type": "tabs",
         "children": [
           {
-            "id": "48a1f5823e3279dd",
+            "id": "665985c0b90f5ef7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 6.md",
+                "file": "Ing software 1/Practica/Casos de uso 7.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 6.md",
+                "file": "Ing software 1/Practica/Casos de uso 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 6.md",
+                "file": "Ing software 1/Practica/Casos de uso 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 6.md"
+                "file": "Ing software 1/Practica/Casos de uso 7.md"
               }
             }
           }
@@ -147,14 +147,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "48a1f5823e3279dd",
+  "active": "665985c0b90f5ef7",
   "lastOpenFiles": [
+    "Ing software 1/Practica/Casos de uso 3.md",
+    "Ing software 1/Practica/Casos de uso 7.md",
+    "Ing software 1/Practica/Casos de uso 5.md",
+    "Ing software 1/Practica/Casos de uso 6.md",
+    "Ing software 1/Practica/Casos de uso 4.md",
+    "Ing software 1/Practica/Adjuntos/CU 7.png",
     "Ing software 1/Practica/Adjuntos/CU 6.png",
     "Ing software 1/Practica/Adjuntos/CU 5.png",
-    "Ing software 1/Practica/Casos de uso 6.md",
     "Ing software 1/ej6p3.xmi",
-    "Ing software 1/Practica/Casos de uso 4.md",
-    "Ing software 1/Practica/Casos de uso 5.md",
     "Ing software 1/Practica/Adjuntos/CU 4.png",
     "Ing software 1/Practica/Casos de uso 1.md",
     "Ing software 1/Practica/Casos de uso 2.md",
@@ -177,7 +180,6 @@
     "ISO/04 - Procesos III.md",
     "ISO/02 - Procesos I.md",
     "ISO/03 - Procesos II.md",
-    "Ing software 1/Practica/Casos de uso 3.md",
     "ISO/01 - Problemas a evitar por el SO.md",
     "ISO/Adjuntos",
     "DBD/Modelo Lógico.md",

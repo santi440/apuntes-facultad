@@ -2,7 +2,7 @@
 ![[Estados Procesos.png]]
 
 ### New: 
-Se crea la PCB y las estructuras adicionales para administrar el proceso. finaliza cuando el proceso esta cargado en memoria (fue amitido).
+Se crea la PCB y las estructuras adicionales para administrar el proceso. finaliza cuando el proceso esta cargado en memoria (fue admitido). [[05 - Procesos IV]]
 
 ### Ready: 
 Todas las condiciones para ejecutarse están dadas solo falta la CPU, esta cargado en memoria. El grado de multiprogramación es la cantidad de procesos cargados en memoria donde todos compiten por la CPU.

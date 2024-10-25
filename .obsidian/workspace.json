@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "33345188ce04916e",
+        "id": "f5875267cbb1425a",
         "type": "tabs",
         "children": [
           {
-            "id": "665985c0b90f5ef7",
+            "id": "0c0db3dac17b8eb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 7.md",
+                "file": "ISO/I-O 1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "I-O 1"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
             }
           },
           {
@@ -62,14 +68,17 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c949a216266940f5",
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -102,10 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ing software 1/Practica/Casos de uso 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -116,7 +127,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
             }
           },
           {
@@ -124,9 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ing software 1/Practica/Casos de uso 7.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Esquema"
             }
           }
         ]
@@ -147,52 +160,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "665985c0b90f5ef7",
+  "active": "0c0db3dac17b8eb5",
   "lastOpenFiles": [
-    "Ing software 1/Practica/Casos de uso 3.md",
-    "Ing software 1/Practica/Casos de uso 7.md",
-    "Ing software 1/Practica/Casos de uso 5.md",
-    "Ing software 1/Practica/Casos de uso 6.md",
-    "Ing software 1/Practica/Casos de uso 4.md",
-    "Ing software 1/Practica/Adjuntos/CU 7.png",
-    "Ing software 1/Practica/Adjuntos/CU 6.png",
-    "Ing software 1/Practica/Adjuntos/CU 5.png",
-    "Ing software 1/ej6p3.xmi",
-    "Ing software 1/Practica/Adjuntos/CU 4.png",
+    "ISO/I-O 1.md",
+    "Excalidraw/Drawing 2024-10-23 10.42.26.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-23 10.30.12.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-23 09.00.40.excalidraw.md",
     "Ing software 1/Practica/Casos de uso 1.md",
-    "Ing software 1/Practica/Casos de uso 2.md",
-    "Ing software 1/Practica/Adjuntos/CU 2.png",
-    "DBD/Excalidraw/DBD 7.md",
+    "Ing software 1/Practica/HU 15.md",
+    "Excalidraw/Drawing 2024-10-17 18.56.47.excalidraw.md",
+    "Excalidraw",
+    "ISO/03 - Procesos II.md",
+    "ISO/04 - Procesos III.md",
+    "ISO/01 - Problemas a evitar por el SO.md",
+    "ISO/02 - Procesos I.md",
+    "ISO/05 - Procesos IV.md",
+    "ISO/00 - Sistema Operativo.md",
+    "Ing software 1/Practica/Casos de uso 9.md",
+    "Ing software 1/Teoría 30_09.md",
     "Ing software 1/Casos de Uso.md",
+    "DBD/Modelo Lógico.md",
+    "DBD/Modelo Físico.md",
+    "DBD/Modelado.md",
+    "DBD/Modelo Conceptual.md",
+    "Ing software 1/Practica/HU 14.md",
+    "Ing software 1/Practica/Casos de uso 8.md",
+    "Ing software 1/Practica/Casos de uso 6.md",
+    "Ing software 1/Practica/Casos de uso 7.md",
+    "ISO/06 - Memoria I.md",
+    "Ing software 1/Practica/Adjuntos/CU 6.png",
+    "Ing software 1/Practica/Adjuntos/CU 8.png",
+    "Ing software 1/Practica/Adjuntos/CU 7.png",
+    "Ing software 1/Practica/Adjuntos/CU 5.png",
+    "Ing software 1/Practica/Adjuntos/CU 4.png",
+    "Ing software 1/Practica/Adjuntos/CU 3.png",
+    "Ing software 1/Practica/Adjuntos/CU 2.png",
+    "Ing software 1/Practica/Adjuntos/CU 1.png",
+    "Ing software 1/Practica/Casos de uso 3.md",
+    "Ing software 1/ej6p3.xmi",
     "Ing software 1/Practica/Adjuntos/Pasted image 20241001134731.png",
     "Ing software 1/Practica/Adjuntos/Pasted image 20241001134750.png",
-    "Ing software 1/Practica/Adjuntos/Pasted image 20241001134806.png",
     "Ing software 1/ej4p3.xmi",
-    "ISO/07 - Memoria II.md",
-    "ISO/06 - Memoria I.md",
-    "ISO/Adjuntos/Tiempo efectivo de acceso.png",
-    "ISO/Adjuntos/PTE.png",
-    "OO1/Teoria 19_09.md",
-    "ISO/00 - Sistema Operativo.md",
-    "Ing software 1/Teoría 30_09.md",
     "Ing software 1/Adjuntos",
-    "ISO/05 - Procesos IV.md",
-    "ISO/04 - Procesos III.md",
-    "ISO/02 - Procesos I.md",
-    "ISO/03 - Procesos II.md",
-    "ISO/01 - Problemas a evitar por el SO.md",
     "ISO/Adjuntos",
-    "DBD/Modelo Lógico.md",
-    "DBD/Modelo Conceptual.md",
-    "DBD/Modelado.md",
-    "DBD/Modelo Físico.md",
     "ISO",
     "Ing software 1/ej3p3.xmi",
     "Ing software 1/ej2p3.xmi",
     "Ing software 1/ej2p4.xmi",
-    "Excalidraw/Drawing 2024-09-24 14.48.24.excalidraw.md",
-    "Ing software 1/Practica/Adjuntos",
-    "ISO",
-    "Excalidraw/Drawing 2024-09-17 21.45.09.excalidraw.md"
+    "Ing software 1/Practica/Adjuntos"
   ]
 }

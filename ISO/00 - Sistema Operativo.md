@@ -10,7 +10,7 @@ Esta capa se puede observar:
 1. Kernel (Núcleo) : Fragmento del SO que administra los recursos que debe:
 	- Manejar la memoria
 	- Manejar la CPU
-	- Administrar los procesos
+	- Administrar los procesos ([[02 - Procesos I]])
 	- Comunicación y concurrencia
 	- Gestión de E/S
 1. Shell
@@ -18,3 +18,5 @@ Esta capa se puede observar:
 
 # Extras
 - Contabilidad: El SO además, recopila información o estadísticas de uso (cuanto tiempo estuvo en CPU, cuando tiempo estuvo esperando, memoria máxima que ocupo, cuanta E/S tuvo), monitorea el rendimiento, se anticipa a necesidades futuras y permite facturar tiempo de procesamiento
+  
+Los problemas se detallan en [[01 - Problemas a evitar por el SO]]

@@ -12,7 +12,7 @@ Forma en que los programas de usuario acceden a servicios del SO. Al hacer el ll
 ![[Sys Call.png]]
 Todas las llamadas a servicios del SO es la misma interrupción, la del Sys call hundler
 ### Interrupción por Clock:
-Evita que un proceso se apropie de la CPU. Junto al clock hay un contador, que se decrementa cada tick de clock, cuando llega a 0 el proceso sale de la CPU y entra otro proceso.
+Evita que un proceso se apropie de la CPU. Junto al clock hay un contador, que se decrementa cada tick de clock, cuando llega a 0 el proceso sale de la CPU y entra otro proceso. [[04 - Procesos III]]
 
 ### Protección de memoria:
 Se definen limitaciones a las posiciones de memoria que puede acceder cada proceso. El SO carga los procesos en memoria, sabiendo las posiciones que esta utilizando (entre una dirección base y limite) y delega el trabajo de comprobar que los accesos de memoria son dentro del espacio asignado al HW (Si se intenta acceder por fuera -> interrupción por acceso indebido a memoria).

@@ -1,8 +1,8 @@
 ### Proceso : 
 Es un programa de usuario en ejecución una entidad de abstracción que solo vive si existe un SO. 
 ![[proceso y programa.png]]
-Como minimo tiene 
-- Sección de Codigo
+Como mínimo tiene 
+- Sección de Código
 - Sección de datos (se puede modificar)
 - Stacks(s): datos temporales. En general, hay mas de una pila (modo usuario y modo kernel)
 Y los atributos:
@@ -12,7 +12,7 @@ Y los atributos:
 - GID: Grupo que lo disparo. Determina que tanto puede hacer por UGO (User Group Others)
 - Terminal : que terminal lo ejecuto.
 ### Process Control Block (PCB):
-Es una estructura de datos asociada al proceso, también llamada estructura interna de un proceso. Existe una por proceso y se guarda toda la información referente a este (registros, atributos, secciones, estado, prioridad, tiempos).
+Es una estructura de datos asociada al proceso, también llamada estructura interna de un proceso. Existe una por proceso y se guarda toda la información referente a este (registros, atributos, secciones, estado ([[03 - Procesos II]]), prioridad, tiempos).
 Primer pasa al crear un proceso y ultimo al eliminarlo.
 
 ### Espacio de Direcciones:

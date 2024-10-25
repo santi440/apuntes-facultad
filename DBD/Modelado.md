@@ -34,7 +34,7 @@ desarrollar.
 Genéricamente, los modelos de datos se dividen en tres grandes grupos: modelos basados en objetos, modelos basados en registros y modelos físicos.
 ### Modelos basados en OO
 Utilizados para describir los datos de acuerdo con la visión que cada usuario tiene respecto de la BD (generar vistas de las necesidades que posee cada actor). 
-Algunos ejemplos: **Modelo entidad relación**, Modelo orientado a objetos, Modelo de datos semántico y Modelo de datos funcional
+Algunos ejemplos: **Modelo entidad relación** (lo usamos en el [[Modelo Conceptual]] y [[Modelo Lógico]]), Modelo orientado a objetos, Modelo de datos semántico y Modelo de datos funcional
 
 ### Modelos basados en registros
 permiten describir los datos desde la perspectiva de cada usuario. Llevan su nombre, y se distinguen del anterior, debido a que la BD se estructura como registros de longitud fija, conformados por campos o atributos. El modelo relacional es el mas usado, antes existían modelos de red y jerárquico, hoy en desuso.

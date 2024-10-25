@@ -49,3 +49,12 @@
 | Curso Normal          | ==Acciones del Actor==<br>Paso 2: El cliente ingresa los datos solicitados.<br>Paso 4: el servidor externo acepta la conexión y solicita número de tarjeta y datos de tarjeta.<br>Paso 6: El servidor corrobora que sea una tarjeta valida y tenga fondos suficientes y envía el resultado | ==Acciones del Sistema==<br>Paso 1: El sistema solicita el numero de tarjeta de crédito y los datos asociados.<br>Paso 3: El sistema solicita conexión con el servidor del banco.<br>Paso 5: El sistema envía la información solicitada.<br>Paso 7: El sistema recibe la confirmación de que la tarjeta es valida <br>Paso 8: El sistema recibe la confirmación de que tiene fondos suficientes.<br>Paso 9: El sistema informa que el pago se registro con éxito. |
 | Curso Alterno         |                          Paso 3: La conexión es invalida. Fin CU<br>Paso 7: La tarjeta es invalida, se informa el error. vuelve al paso 1.<br>Paso 8: Si los fondos son insuficientes, el sistema informa el error. Vuelve al paso 1 para ingresar otra tarjeta.                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | PostCondicion         |                                                                                                                              Se registro el pago exitosamente                                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+Vinculos: 
+[[Casos de uso 2]]
+[[Casos de uso 3]]
+[[Casos de uso 4]]
+[[Casos de uso 5]]
+[[Casos de uso 6]]
+[[Casos de uso 7]]
+[[Casos de uso 8]]
+

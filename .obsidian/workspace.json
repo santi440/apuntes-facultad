@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2b1364415169972e",
+        "id": "346d7cf93c06ac25",
         "type": "tabs",
         "children": [
           {
-            "id": "6a86543701369131",
+            "id": "bc5ed7887ad4b1f6",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-10-25 14.29.18.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-11-02 14.21.57.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2024-10-25 14.29.18.excalidraw"
+              "title": "Drawing 2024-11-02 14.21.57.excalidraw"
             }
           }
         ]
@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c949a216266940f5",
@@ -157,13 +158,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a86543701369131",
+  "active": "bc5ed7887ad4b1f6",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-11-01 10.17.27.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-02 14.21.57.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-25 14.57.37.excalidraw.md",
+    "primera parte.md",
+    "Excalidraw/Drawing 2024-10-25 14.29.18.excalidraw.md",
     "Excalidraw/Drawing 2024-10-23 10.42.26.excalidraw.md",
     "Excalidraw/Drawing 2024-10-23 09.00.40.excalidraw.md",
     "Excalidraw/Drawing 2024-10-23 10.30.12.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-25 14.29.18.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-25 14.57.37.excalidraw.md",
     "ISO/I-O 1.md",
     "Ing software 1/Practica/Casos de uso 1.md",
     "Ing software 1/Practica/HU 15.md",
@@ -183,9 +187,6 @@
     "DBD/Modelado.md",
     "DBD/Modelo Conceptual.md",
     "Ing software 1/Practica/HU 14.md",
-    "Ing software 1/Practica/Casos de uso 8.md",
-    "Ing software 1/Practica/Casos de uso 6.md",
-    "Ing software 1/Practica/Casos de uso 7.md",
     "Ing software 1/Practica/Adjuntos/CU 6.png",
     "Ing software 1/Practica/Adjuntos/CU 8.png",
     "Ing software 1/Practica/Adjuntos/CU 7.png",

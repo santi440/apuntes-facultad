@@ -1,6 +1,6 @@
 ## Memoria Virtual
 No todo el espacio de direcciones del proceso debe estar en todo momento en memoria (Librerías que se usan una vez, código ya ejecutado y no se vuelve a usar). El SO solo sube a memoria las partes que el proceso va necesitando
-**Conjunto residente (working set )**: La porción del espacio de direcciones que se encuentra en memoria. Cuando no se requiere una porción que no esta en el working set se produce una excepción, me estoy apoyando en el hardware, además de traducir direcciones de memoria, que me avisa que el proceso necesita una pagina no cargada, solo avisa, carga y descarga es realizada por el SO 
+**Conjunto residente (working set )**: La porción del espacio de direcciones que se encuentra en memoria. Cuando se requiere una porción que no esta en el working set se produce una excepción, me estoy apoyando en el hardware, además de traducir direcciones de memoria, que me avisa que el proceso necesita una pagina no cargada, solo avisa, carga y descarga es realizada por el SO 
 - Ventajas:
 	1. Mayor grado de multiprogramación.
 	2. Un proceso puede ser mas grande que la memoria principal, sigue estando limitado por la arquitectura y el bus de direcciones.

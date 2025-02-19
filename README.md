@@ -41,7 +41,6 @@ Para utilizar este vault, primero necesitas instalar Obsidian en tu sistema oper
     ```bash
     sudo apt install obsidian
     ```
-    
 
 ### macOS
 

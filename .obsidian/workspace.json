@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "709a5067727ca0d1",
+        "id": "f758318533fe933d",
         "type": "tabs",
         "children": [
           {
-            "id": "f84d7d3ad854e7ce",
+            "id": "3ebead101e50edfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2do año/ISO/12- Archivos 3.md",
+                "file": "2do año/ISO/13 - Buffer Cache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12- Archivos 3"
+              "title": "13 - Buffer Cache"
+            }
+          },
+          {
+            "id": "bc5761e69fb6ac37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2do año/ISO/11 - Archivos 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11 - Archivos 2"
             }
           }
         ]
@@ -159,11 +173,14 @@
       "markdown-importer:Abrir el importador de Markdown": false
     }
   },
-  "active": "f84d7d3ad854e7ce",
+  "active": "3ebead101e50edfc",
   "lastOpenFiles": [
-    "2do año/ISO/13 - Buffer Cache.md",
-    "2do año/ISO/12- Archivos 3.md",
     "2do año/ISO/11 - Archivos 2.md",
+    "2do año/ISO/13 - Buffer Cache.md",
+    "2do año/ISO/Adjuntos/Hash queue.png",
+    "2do año/ISO/Adjuntos/free list.png",
+    "2do año/ISO/Adjuntos/buffer header.png",
+    "2do año/ISO/12- Archivos 3.md",
     "2do año/ISO/10- Archivos 1.md",
     "2do año/ISO/Adjuntos/Buscar inodo de un archivo.png",
     "2do año/ISO/Adjuntos/Division de un disco.png",
@@ -172,13 +189,10 @@
     "2do año/ISO/Adjuntos/Tipos de archivos en unix.png",
     "2do año/ISO/Adjuntos/Recuento indexado free space.png",
     "2do año/ISO/Adjuntos/Indexada free space.png",
-    "2do año/ISO/Adjuntos/free-space list.png",
     "2do año/ISO/08 - Memoria III.md",
     "2do año/ISO/07 - Memoria II.md",
     "2do año/ISO/06 - Memoria I.md",
-    "2do año/ISO/Adjuntos/Tabla de bits.png",
     "README.md",
-    "2do año/ISO/Adjuntos/Asignacion Indexada con niveles de indireccion.png",
     "2do año/ISO/09- I-O 1.md",
     "2do año/Ing software 1/Teoría 30_09.md",
     "2do año/Ing software 1/Primera teoría.md",

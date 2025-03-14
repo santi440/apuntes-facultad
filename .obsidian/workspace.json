@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3er año/cplp/Introducción.md",
+                "file": "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introducción"
+              "title": "Clase 1 Introducción Sintaxis y semántica"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c949a216266940f5",
@@ -178,7 +179,7 @@
   "active": "0c66a9a56e8d641b",
   "lastOpenFiles": [
     "3er año/redes/Clase 1.md",
-    "3er año/cplp/Introducción.md",
+    "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
     "3er año/cplp",
     "3er año/oo2/Clase 1.md",
     "3er año/redes",

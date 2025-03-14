@@ -1,0 +1,1 @@
+los dispositivos intermedios al desempaquetar no pasa por todos las capas, solo hasta la capa de red en donde se encuentra la ip a la que hay que mandarlo o hasta la capa de enlace. 

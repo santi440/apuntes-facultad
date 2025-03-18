@@ -49,3 +49,52 @@ Establece reglas que definen cómo deben combinarse las componentes básicas par
 ### Reglas
 - Léxicas:Conjunto de reglas para formar las “word”, a partir de los caracteres del alfabeto. Por ejemplo el != o <> o en php que los identificadores comienzan con $.
 - Sintácticas: Conjunto de reglas que definen cómo formar a partir de esas palabras, las “expresiones” y “sentencias”. El If en C no lleva “”then””, en Pascal si
+### Tipos
+- Abstracta: Se refiere a la estructura. Si entre dos códigos de lenguajes de programación diferentes que estructuralmente son iguales, no en termino bien bien puntuales sintácticos, se dice que la sintaxis abstracta es la misma 
+
+> [!Example] Los dos códigos tienen la misma estructura de while condicion codigo pero difieren en especificaciones concretas de la sintaxis de cada lenguaje.
+> En C
+> ```
+> 	while (x!= y){
+> 		.....
+> 	}
+> ```
+> En Pascal 
+> ```
+> 	while(x<>y) do
+> 	begin
+> 		....
+> 	end;
+> ```
+
+- Concreta: Se refiere a la parte léxica, es exactamente lo que tenemos escrito.
+- Pragmática: Se refiere al uso práctico. En C y Pascal {} o begin-end pueden omitirse si el
+bloque está compuesto por una sola sentencia, puede conducir a error ya que si se necesitara agregar una sentencia debe agregar el begin end o las {} (es decir
+que no define una única forma de escribirse).
+
+### Cómo definir la sintaxis
+Se necesitan métodos formales para describir un conjunto finito de reglas que permitan definir un conjunto infinito de programas bien escritos.
+Ventajas:
+- Brinda una única documentación, concreta, fiable y libre de ambiguedad
+- Facilita el testeo, pruebas de implementación y automatización
+#### Formas para definir
+##### Lenguaje natural	
+##### Gramáticas libres de contexto (Backus Naun Form):
+Da reglas precisas de como se compone el lenguaje independientemente de que tenga sentido en el contexto, importa que lo escribamos bien.
+Es una notación formal para describir la sintaxis, corresponde a un metalenguaje porque esta más arriba que el lenguaje en si. Los metasimbolos que utiliza son <, >, ::= y  | .
+//la barra es para los opcionales 
+![[Ejemplo BNF.png]]
+No terminal: Permiten definir las reglas de mi gramatica. Necesita una producción, una regla que lo especifique. 
+Terminal: No hay manera más átomica de escribirlo.
+Del lado derecho del ::= puede haber una combinación entre terminales y no terminales.
+El uso de BNF hace que formemos una Gramática.
+###### Gramática:
+Conjunto de reglas finita que define un conjunto infinito de posibles sentencias válidas
+en el lenguaje. Es una 4-tupla:
+ **G = ( N, T, S, P)**
+ N= Conjunto de símbolos no terminales
+ T= Conjunto de símbolos terminales
+ S= Simbolo distinguido de la gramatica que pertenece a N (No terminales)
+ P= Conjunto de producciones 
+##### Diagramas sintácticos 
+##### Árboles

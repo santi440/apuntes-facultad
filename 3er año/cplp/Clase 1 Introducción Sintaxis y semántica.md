@@ -97,4 +97,7 @@ en el lenguaje. Es una 4-tupla:
  S= Simbolo distinguido de la gramatica que pertenece a N (No terminales)
  P= Conjunto de producciones 
 ##### Diagramas sintácticos 
+Cada diagrama tiene una entrada y una salida 
 ##### Árboles
+
+Expresiones ambiguas, teniendo expresiones recursivas a derecha y a izquierda. Permite que entre por mas de una entrada generando versiones incorrectas. 

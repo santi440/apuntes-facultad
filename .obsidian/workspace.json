@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4cbb73478eccb0ac",
+        "id": "d2cd103ef433d44e",
         "type": "tabs",
         "children": [
           {
-            "id": "aa351fde0fa7f4e3",
+            "id": "676548b2b3679eff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3er año/redes/Clase 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Clase 1"
-            }
-          },
-          {
-            "id": "0c66a9a56e8d641b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 1 Introducción Sintaxis y semántica"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -167,21 +148,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "markdown-importer:Abrir el importador de Markdown": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0c66a9a56e8d641b",
+  "active": "676548b2b3679eff",
   "lastOpenFiles": [
-    "3er año/cplp/Adjuntos/Ejemplo BNF.png",
-    "3er año/cplp/Adjuntos",
+    "3er año/cplp/primera practica cplp.md",
     "3er año/redes/Clase 1.md",
     "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
+    "3er año/cplp/Adjuntos/Ejemplo BNF.png",
+    "3er año/cplp/Adjuntos",
     "3er año/cplp",
     "3er año/oo2/Clase 1.md",
     "3er año/redes",
@@ -204,7 +186,6 @@
     "2do año/ISO/Adjuntos/Inodo información.png",
     "2do año/ISO/Adjuntos/Tipos de archivos en unix.png",
     "2do año/ISO/Adjuntos/Recuento indexado free space.png",
-    "2do año/ISO/Adjuntos/Indexada free space.png",
     "README.md",
     "2do año/Ing software 1/Teoría 30_09.md",
     "2do año/Ing software 1/Primera teoría.md",

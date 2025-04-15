@@ -1,0 +1,7 @@
+- Ligadura : especificacion exacta de la naturaleza de un atributo.
+	- Estatica: se establece antes de la ejecucion y no se puede cambiar
+	- dinamica : !estatica.
+- Tiempo de vida: 
+- Alcance:
+- R Valor: El dato que tiene
+- L valor: 

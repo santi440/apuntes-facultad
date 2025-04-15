@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d2cd103ef433d44e",
+        "id": "754f9c58afc3d31a",
         "type": "tabs",
         "children": [
           {
-            "id": "676548b2b3679eff",
+            "id": "2d702d993f1930cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3er año/concu/Practica 2 Semaforos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Practica 2 Semaforos"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c949a216266940f5",
@@ -91,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3er año/redes/Practica 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Backlinks for Practica 2"
             }
           },
           {
@@ -109,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3er año/redes/Practica 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Outgoing links from Practica 2"
             }
           },
           {
@@ -157,53 +162,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "676548b2b3679eff",
+  "active": "2d702d993f1930cb",
   "lastOpenFiles": [
+    "3er año/redes/Teoria/Clase 4 - DNS.md",
+    "3er año/concu/Practica 2 Semaforos.md",
+    "3er año/concu",
+    "3er año/redes/Teoria",
+    "3er año/redes/Adjuntos/Untitled.md",
+    "3er año/oo2/Practica/Refactoring/Ej4/Ej4.md",
+    "3er año/oo2/Practica/Refactoring/Ej4",
+    "3er año/oo2/Practica/Refactoring/Ej3/Ejercicio.md",
+    "3er año/oo2/Practica/Refactoring/Ej2/2-6 Películas.md",
+    "3er año/oo2/Practica/Refactoring",
+    "3er año/oo2/Practica/Refactoring/Ej3",
+    "3er año/oo2/Practica/Refactoring/Ej2/2-5 Envío de pedidos.md",
+    "3er año/oo2/Practica/Refactoring/Ej2/2-4 Carrito de compras.md",
+    "3er año/oo2/Practica/Refactoring/Ej2/2-3 Publicaciones.md",
+    "3er año/oo2/Practica/Refactoring/Ej2/2-2 Juego.md",
+    "3er año/oo2/Practica/Refactoring/Ej2/2-1 Empleados.md",
+    "3er año/oo2/Practica/Refactoring/Ej1/1-3  Cálculos.md",
+    "3er año/oo2/Practica/Refactoring/Ej2",
+    "3er año/oo2/Practica/Refactoring/Ej1/1-2 Participación en proyectos.md",
+    "3er año/oo2/Practica/Refactoring/Ej1",
+    "3er año/oo2/Practica/Refactoring/Ej1/1-1 Protocolo de Cliente.md",
+    "3er año/oo2/Clase 4 - Strategy - State.md",
+    "3er año/oo2/Practica",
+    "3er año/cplp/Clase 3 semantica operacional.md",
     "3er año/cplp/primera practica cplp.md",
-    "3er año/redes/Clase 1.md",
-    "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
-    "3er año/cplp/Adjuntos/Ejemplo BNF.png",
-    "3er año/cplp/Adjuntos",
-    "3er año/cplp",
+    "3er año/redes/Teoria/Clase 3 - HTTPS.md",
+    "3er año/redes/Practica 2.md",
+    "3er año/redes/Adjuntos/metodo post form.png",
+    "3er año/redes/Adjuntos/metodo get from.png",
+    "3er año/redes/Adjuntos/the-end.php.png",
+    "3er año/redes/Adjuntos/uso de authorization.png",
+    "3er año/redes/Adjuntos/P2 ej14 practicando autenticacion.png",
+    "3er año/redes/Teoria/Clase 2 - Capa de Aplicacion (HTTP).md",
+    "3er año/redes/Adjuntos/Ida y vuelta cliente servidor.png",
+    "3er año/redes/Adjuntos/Pasted image 20250402151519.png",
+    "3er año/redes/Adjuntos/status code http.png",
+    "3er año/redes/Adjuntos/respuesta htpp.png",
+    "3er año/redes/Adjuntos/solicitud http.png",
     "3er año/oo2/Clase 1.md",
-    "3er año/redes",
+    "3er año/oo2/Clase 3 - Patrones de diseño.md",
+    "3er año/oo2/Adjuntos",
+    "3er año/redes/Adjuntos",
+    "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
+    "3er año/redes/Teoria/Clase 1.md",
     "2do año/ISO/11 - Archivos 2.md",
-    "3er año/oo2",
-    "3er año",
-    "2do año/ISO/12- Archivos 3.md",
-    "2do año/ISO/13 - Buffer Cache.md",
-    "2do año/ISO/10- Archivos 1.md",
-    "2do año/ISO/09- I-O 1.md",
-    "2do año/ISO/08 - Memoria III.md",
-    "2do año/ISO/07 - Memoria II.md",
-    "2do año/ISO/06 - Memoria I.md",
-    "2do año/ISO/Adjuntos/Hash queue.png",
-    "2do año/ISO/Adjuntos/free list.png",
-    "2do año/ISO/Adjuntos/buffer header.png",
-    "2do año/ISO/Adjuntos/Buscar inodo de un archivo.png",
-    "2do año/ISO/Adjuntos/Division de un disco.png",
-    "2do año/ISO/Adjuntos/Inodo graficamente.png",
-    "2do año/ISO/Adjuntos/Inodo información.png",
-    "2do año/ISO/Adjuntos/Tipos de archivos en unix.png",
-    "2do año/ISO/Adjuntos/Recuento indexado free space.png",
-    "README.md",
-    "2do año/Ing software 1/Teoría 30_09.md",
-    "2do año/Ing software 1/Primera teoría.md",
-    "2do año/DBD/Modelado.md",
-    "2do año/DBD/Modelo Conceptual.md",
-    "2do año/DBD/Modelo Físico.md",
-    "2do año/DBD/Modelo Lógico.md",
-    "OO1/Teoria 19_09.md",
-    "2do año",
-    "2do año/Ing software 1/Practica/DTEs/Drawing 2024-10-23 09.00.40.excalidraw.md",
-    "2do año/ISO/01 - Problemas a evitar por el SO.md",
-    "2do año/ISO/02 - Procesos I.md",
-    "2do año/ISO/04 - Procesos III.md",
-    "2do año/ISO/05 - Procesos IV.md",
-    "2do año/ISO/00 - Sistema Operativo.md",
-    "2do año/Ing software 1/Practica/DTEs",
-    "2do año/Ing software 1/ej6p3.xmi",
-    "2do año/Ing software 1/ej4p3.xmi",
-    "2do año/Ing software 1/Adjuntos"
+    "2do año/ISO/12- Archivos 3.md"
   ]
 }

@@ -94,7 +94,7 @@ en el lenguaje. Es una 4-tupla:
  **G = ( N, T, S, P)**
  N= Conjunto de símbolos no terminales
  T= Conjunto de símbolos terminales
- S= Simbolo distinguido de la gramatica que pertenece a N (No terminales)
+ S= Simbolo distinguido de la gramatica que pertenece a N (No terminales). Elemento inicial a definir.
  P= Conjunto de producciones 
 ##### Diagramas sintácticos 
 Cada diagrama tiene una entrada y una salida 

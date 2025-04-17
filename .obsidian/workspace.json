@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3er año/concu/Practica 2 Semaforos.md",
+                "file": "3er año/redes/Practica 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practica 2 Semaforos"
+              "title": "Practica 3"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c949a216266940f5",
@@ -153,19 +154,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "2d702d993f1930cb",
   "lastOpenFiles": [
-    "3er año/redes/Teoria/Clase 4 - DNS.md",
+    "Practica4_2025.docx",
+    "3er año/redes/Adjuntos/grafico de consulta17.png",
+    "3er año/redes/Adjuntos/ejemplo con consultas recursivas e iterativas.png",
+    "3er año/redes/Adjuntos/Pasted image 20250417085923.png",
+    "3er año/redes/Adjuntos/DNS jerarquia.png",
     "3er año/concu/Practica 2 Semaforos.md",
+    "3er año/redes/Practica 3.md",
+    "3er año/redes/Teoria/Clase 4 - DNS.md",
     "3er año/concu",
     "3er año/redes/Teoria",
     "3er año/redes/Adjuntos/Untitled.md",
@@ -198,17 +205,11 @@
     "3er año/redes/Adjuntos/P2 ej14 practicando autenticacion.png",
     "3er año/redes/Teoria/Clase 2 - Capa de Aplicacion (HTTP).md",
     "3er año/redes/Adjuntos/Ida y vuelta cliente servidor.png",
-    "3er año/redes/Adjuntos/Pasted image 20250402151519.png",
-    "3er año/redes/Adjuntos/status code http.png",
-    "3er año/redes/Adjuntos/respuesta htpp.png",
-    "3er año/redes/Adjuntos/solicitud http.png",
     "3er año/oo2/Clase 1.md",
     "3er año/oo2/Clase 3 - Patrones de diseño.md",
     "3er año/oo2/Adjuntos",
     "3er año/redes/Adjuntos",
     "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
-    "3er año/redes/Teoria/Clase 1.md",
-    "2do año/ISO/11 - Archivos 2.md",
-    "2do año/ISO/12- Archivos 3.md"
+    "3er año/redes/Teoria/Clase 1.md"
   ]
 }

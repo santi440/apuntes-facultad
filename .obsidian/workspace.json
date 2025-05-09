@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "754f9c58afc3d31a",
+        "id": "bd99090d91db25fc",
         "type": "tabs",
         "children": [
           {
-            "id": "2d702d993f1930cb",
+            "id": "4ee91989c44ac94c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3er año/redes/Practica 3.md",
+                "file": "3er año/concu/Practica 3/ej3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practica 3"
+              "title": "ej3"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c949a216266940f5",
@@ -144,35 +143,71 @@
               "icon": "lucide-list",
               "title": "Esquema"
             }
+          },
+          {
+            "id": "8a1ff06e59bd48ff",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "markdown-importer:Abrir el importador de Markdown": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d702d993f1930cb",
+  "active": "4ee91989c44ac94c",
   "lastOpenFiles": [
-    "Practica4_2025.docx",
-    "3er año/redes/Adjuntos/grafico de consulta17.png",
-    "3er año/redes/Adjuntos/ejemplo con consultas recursivas e iterativas.png",
-    "3er año/redes/Adjuntos/Pasted image 20250417085923.png",
-    "3er año/redes/Adjuntos/DNS jerarquia.png",
-    "3er año/concu/Practica 2 Semaforos.md",
-    "3er año/redes/Practica 3.md",
+    "3er año/concu/Practica 3/ej2.md",
+    "3er año/concu/Practica 3/ej4.md",
+    "3er año/concu/Practica 3/ej3.md",
+    "3er año/redes/Teoria/Clase 2 - Capa de Aplicacion (HTTP).md",
     "3er año/redes/Teoria/Clase 4 - DNS.md",
+    "2do año/Ing software 1/Practica/DTEs/Drawing 2024-10-23 10.30.12.excalidraw.md",
+    "2do año/Ing software 1/Practica/Casos de uso 3.md",
+    "3er año/concu/Practica 3/ej1.md",
+    "3er año/redes/Practica 3.md",
+    "README.md",
+    "Capa de transporte.md",
+    "basura.md",
+    "3er año/concu/Practica 3/Adjuntos/monitor prolijo con libre y cant esperando.png",
+    "3er año/concu/Practica 3/Adjuntos/monitores 1.png",
+    "3er año/concu/Practica 3/Adjuntos",
+    "3er año/concu/Practica 3",
+    "3er año/concu/Practica 2 Semaforos.md",
+    "lu56721ip9c.tmp",
+    "Adjuntos/servicios por protocolo.png",
+    "Adjuntos/Pasted image 20250422094051.png",
+    "Adjuntos",
+    "3er año/cplp/Practica 5.md",
+    "3er año/cplp/primera practica cplp.md",
+    "3er año/cplp/Clase 3.md",
+    "3er año/cplp/Adjuntos/Tipos de alcance.png",
+    "3er año/cplp/Clase 3 semantica operacional.md",
+    "3er año/redes/Adjuntos/nslookup y host ns.png",
+    "3er año/redes/Adjuntos/nslookup y host mx.png",
+    "3er año/redes/Adjuntos/nslookup host ip.png",
+    "3er año/redes/Adjuntos/another status code DNS.png",
+    "3er año/redes/Adjuntos/ttl fijo aa.png",
+    "3er año/redes/Practica 2.md",
+    "Practica4_2025.docx",
     "3er año/concu",
     "3er año/redes/Teoria",
     "3er año/redes/Adjuntos/Untitled.md",
@@ -185,31 +220,6 @@
     "3er año/oo2/Practica/Refactoring/Ej2/2-5 Envío de pedidos.md",
     "3er año/oo2/Practica/Refactoring/Ej2/2-4 Carrito de compras.md",
     "3er año/oo2/Practica/Refactoring/Ej2/2-3 Publicaciones.md",
-    "3er año/oo2/Practica/Refactoring/Ej2/2-2 Juego.md",
-    "3er año/oo2/Practica/Refactoring/Ej2/2-1 Empleados.md",
-    "3er año/oo2/Practica/Refactoring/Ej1/1-3  Cálculos.md",
-    "3er año/oo2/Practica/Refactoring/Ej2",
-    "3er año/oo2/Practica/Refactoring/Ej1/1-2 Participación en proyectos.md",
-    "3er año/oo2/Practica/Refactoring/Ej1",
-    "3er año/oo2/Practica/Refactoring/Ej1/1-1 Protocolo de Cliente.md",
-    "3er año/oo2/Clase 4 - Strategy - State.md",
-    "3er año/oo2/Practica",
-    "3er año/cplp/Clase 3 semantica operacional.md",
-    "3er año/cplp/primera practica cplp.md",
-    "3er año/redes/Teoria/Clase 3 - HTTPS.md",
-    "3er año/redes/Practica 2.md",
-    "3er año/redes/Adjuntos/metodo post form.png",
-    "3er año/redes/Adjuntos/metodo get from.png",
-    "3er año/redes/Adjuntos/the-end.php.png",
-    "3er año/redes/Adjuntos/uso de authorization.png",
-    "3er año/redes/Adjuntos/P2 ej14 practicando autenticacion.png",
-    "3er año/redes/Teoria/Clase 2 - Capa de Aplicacion (HTTP).md",
-    "3er año/redes/Adjuntos/Ida y vuelta cliente servidor.png",
-    "3er año/oo2/Clase 1.md",
-    "3er año/oo2/Clase 3 - Patrones de diseño.md",
-    "3er año/oo2/Adjuntos",
-    "3er año/redes/Adjuntos",
-    "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
-    "3er año/redes/Teoria/Clase 1.md"
+    "3er año/oo2/Practica/Refactoring/Ej2/2-2 Juego.md"
   ]
 }

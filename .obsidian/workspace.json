@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3er año/concu/Practica 2/ej12.md",
+                "file": "3er año/concu/parciales/1- Semaforos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ej12"
+              "title": "1- Semaforos"
             }
           }
         ]
@@ -175,27 +175,35 @@
   },
   "active": "449c7817cee6600e",
   "lastOpenFiles": [
+    "3er año/concu/Practica 2/ej8.md",
+    "3er año/concu/Practica 2/ej9.md",
+    "3er año/concu/parciales/1- Monitores.md",
+    "3er año/concu/parciales/1- Semaforos.md",
+    "3er año/concu/Practica 2/ej1.md",
+    "3er año/concu/Practica 3/ej8.md",
+    "3er año/concu/parciales",
+    "3er año/concu/Practica 3/ej7.md",
+    "3er año/concu/Practica 3/ej6.md",
+    "3er año/concu/Practica 3/ej5.md",
+    "3er año/concu/Practica 3/ej4.md",
+    "3er año/concu/Practica 3/ej3.md",
+    "3er año/concu/Practica 3/ej2.md",
+    "3er año/concu/Practica 3/ej1.md",
+    "3er año/concu/Practica 2/ej12.md",
     "3er año/concu/Practica 2/ej11.md",
     "3er año/concu/Practica 2/ej10.md",
-    "3er año/concu/Practica 2/ej12.md",
-    "3er año/concu/Practica 2/Adjuntos/semaforos11v2.png",
-    "3er año/concu/Practica 2/ej9.md",
-    "3er año/concu/Practica 2/ej8.md",
-    "3er año/concu/Practica 2/ej7.md",
     "3er año/concu/Practica 2/ej6.md",
-    "3er año/concu/Practica 2 Semaforos.md",
-    "3er año/concu/Practica 2/ej4.md",
     "3er año/concu/Practica 2/ej5.md",
+    "3er año/concu/Practica 2/ej4.md",
+    "3er año/concu/Practica 2/ej3.md",
+    "3er año/concu/Practica 2/ej2.md",
+    "3er año/concu/Practica 2/Adjuntos/semaforos11v2.png",
+    "3er año/concu/Practica 2/ej7.md",
+    "3er año/concu/Practica 2 Semaforos.md",
     "3er año/concu/Practica 2/Adjuntos/Pasted image 20250511144222.png",
     "3er año/concu/Practica 2/Adjuntos/quien pone el codigo en tablas > punto6.png",
     "3er año/concu/Practica 2/Adjuntos",
-    "3er año/concu/Practica 2/ej3.md",
-    "3er año/concu/Practica 2/ej2.md",
-    "3er año/concu/Practica 2/ej1.md",
     "3er año/concu/Practica 2",
-    "3er año/concu/Practica 3/ej7.md",
-    "3er año/concu/Practica 3/ej6.md",
-    "3er año/concu/Practica 3/ej8.md",
     "3er año/redes/Practica 3.md",
     "basura.md",
     "Capa de transporte.md",
@@ -207,18 +215,11 @@
     "3er año/redes/Adjuntos/respuesta dig NS redes.png",
     "3er año/redes/Adjuntos/respuesta a dig.png",
     "3er año/redes/Adjuntos/registros mx.png",
-    "3er año/cplp/Practica 5.md",
-    "3er año/cplp/Clase 3.md",
-    "3er año/concu/Practica 3/ej5.md",
-    "3er año/concu/Practica 3/ej4.md",
-    "3er año/concu/Practica 3/ej3.md",
-    "3er año/concu/Practica 3/ej2.md",
     "3er año/concu/Practica 3/Adjuntos",
     "3er año/concu/Practica 3",
     "Excalidraw",
     "Practica4_2025.docx",
     "3er año/concu",
-    "3er año/redes/Teoria",
-    "3er año/oo2/Practica/Refactoring/Ej4"
+    "3er año/redes/Teoria"
   ]
 }

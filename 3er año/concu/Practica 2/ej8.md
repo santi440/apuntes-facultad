@@ -22,7 +22,7 @@ process  empleado
     else
         P(domir)
 	V(mutex)
-	int fabrique = 0     
+	int fabrique = 0
 	P(mutex)
     while(piezas > 0)
         //tomar pieza

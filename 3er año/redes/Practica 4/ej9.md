@@ -1,0 +1,4 @@
+Indique sí es posible que el MTA escuche en un puerto TCP diferente a los
+convencionales y qué implicancias tendría.
+Igual que el punto 8, mismos motivos 
+Aunque técnicamente es posible configurar un MTA para escuchar en un puerto diferente al 25, **no es viable ni recomendable** para un MTA que necesita recibir correo de Internet. El puerto 25 es el estándar universal para la entrega de correo de servidor a servidor, y desviarse de él resultará en una **pérdida casi total de la capacidad de recibir correos electrónicos**. Para cualquier escenario real de correo electrónico, el MTA debe escuchar en el puerto 25.

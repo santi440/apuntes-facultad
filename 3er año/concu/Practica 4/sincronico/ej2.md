@@ -10,8 +10,8 @@ process Admin::
 	cola buffer;
 	Muestra solicitud;
 		//do guardado, similar al de multiples alternativas
-		do Primero?(solicitud){push(cola,solicitud)}
-		   not empty(buffer); Segundo?() {Solicitud!(pop(cola))}
+		do Primero?(solicitud)->{push(cola,solicitud)}
+		   not empty(buffer); Segundo?()->{Solicitud!(pop(cola))}
 
 process Segundo::
 	Muestra muestra;

@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "root",
   "attachmentFolderPath": "./Adjuntos",
-  "livePreview": true
+  "livePreview": true,
+  "readableLineLength": false
 }

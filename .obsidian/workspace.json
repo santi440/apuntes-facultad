@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "983db18403aae0bd",
+        "id": "5a294cff58df56bb",
         "type": "tabs",
         "children": [
           {
-            "id": "1f8dd7ab5e65beda",
+            "id": "ff53ee57f7d7c4e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3er año/concu/Practica 4/sincronico/ej5.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ej5"
+              "title": "New tab"
             }
           }
         ]
@@ -181,53 +177,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f8dd7ab5e65beda",
+  "active": "ff53ee57f7d7c4e6",
   "lastOpenFiles": [
-    "3er año/concu/Practica 4/sincronico/ej4.md",
+    "3er año/concu/parciales/Adjuntos/Pasted image 20250618090546.png",
+    "3er año/redes/Practica 5/ej 6.md",
+    "3er año/redes/Practica 5/ej 5.md",
+    "3er año/redes/Practica 5/ej 4.md",
+    "3er año/redes/Practica 5/ej 3.md",
+    "3er año/redes/Practica 5/ej 2.md",
+    "3er año/redes/Practica 5/ej3",
+    "3er año/redes/Practica 5/Adjuntos/Segmento tcp.png",
+    "3er año/redes/Practica 5/Adjuntos/Datagrama udp.png",
+    "3er año/redes/Practica 5/ej 1.md",
+    "3er año/concu/parciales/ADA1.md",
+    "3er año/concu/parciales/ADA2.md",
+    "3er año/concu/parciales/PMS1.md",
+    "3er año/concu/parciales/PMA2.md",
+    "3er año/concu/parciales/PMA1.md",
+    "3er año/concu/parciales/PMS2.md",
+    "3er año/concu/Practica 4/asincronico/ej1.md",
+    "3er año/concu/parciales/Adjuntos",
+    "3er año/concu/parciales/Monitores3.md",
+    "3er año/concu/parciales/Monitores2.md",
+    "3er año/concu/parciales/Semaforos1.md",
+    "3er año/concu/practica 5/ej3.md",
+    "3er año/concu/practica 5/ej2.md",
+    "3er año/concu/practica 5/ej1.md",
     "3er año/concu/Practica 4/sincronico/ej5.md",
+    "3er año/concu/practica 5",
+    "3er año/concu/Practica 4/sincronico/ej4.md",
     "3er año/concu/Practica 4/sincronico/ej1.md",
     "3er año/concu/Practica 4/sincronico/ej2.md",
     "3er año/concu/Practica 4/sincronico/ej3.md",
     "3er año/concu/Practica 4/asincronico/ej4.md",
-    "3er año/concu/Practica 4/asincronico/ej5.md",
-    "3er año/concu/Practica 4/asincronico/ej3.md",
-    "3er año/concu/Practica 4/asincronico/ej2.md",
     "3er año/concu/Practica 4/sincronico",
-    "3er año/concu/Practica 4/asincronico/ej1.md",
     "3er año/concu/Practica 4/asincronico",
-    "3er año/redes/Practica 4/ej10.md",
     "3er año/concu/Practica 4",
-    "3er año/redes/Practica 7/ej6.md",
     "3er año/redes/Practica 7",
-    "3er año/redes/Practica 4/ej9.md",
-    "3er año/redes/Practica 4/ej8.md",
-    "3er año/redes/Practica 4/ej7.md",
-    "3er año/redes/Practica 4/ej6.md",
-    "3er año/redes/Practica 4/ej5.md",
     "3er año/redes/Practica 4/Adjuntos/imap no se que tengo que ver.png",
-    "3er año/redes/Practica 4/ej4.md",
     "3er año/redes/Practica 4/Adjuntos/Pasted image 20250526164900.png",
-    "3er año/redes/Practica 4/ej3.md",
     "3er año/redes/Practica 4/Adjuntos/wireshark mensaje foto.png",
     "3er año/redes/Practica 4/Adjuntos/punto3c.png",
-    "3er año/redes/Practica 5/ej 9.md",
-    "Capa de transporte.md",
-    "3er año/redes/Practica 3.md",
-    "3er año/redes/Practica 4/ej 2.md",
-    "3er año/redes/Practica 4/ej 1.md",
-    "3er año/oo2/Clase 4 - Strategy - State.md",
-    "3er año/oo2/Framework - Blackbox.md",
     "3er año/redes/Practica 4/Adjuntos/filtrado con tcp.png",
     "3er año/redes/Practica 4/Adjuntos/smtp.png",
     "3er año/redes/Practica 4/Adjuntos/imapApop.png",
-    "3er año/redes/Practica 4/Adjuntos/cami llorona.png",
     "3er año/redes/Practica 4/Adjuntos",
     "3er año/redes/Practica 4",
-    "3er año/redes/Practica 5/Adjuntos/udp sin puerto escuchando.png",
-    "3er año/redes/Practica 5/Adjuntos",
-    "3er año/redes/Practica 5",
-    "3er año/oo2/Practica/Patrones",
-    "3er año/concu/parciales",
-    "3er año/concu/Practica 2/Adjuntos/semaforos11v2.png"
+    "3er año/redes/Practica 5/Adjuntos"
   ]
 }

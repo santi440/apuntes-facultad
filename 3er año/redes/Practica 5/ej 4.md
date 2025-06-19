@@ -1,0 +1,25 @@
+Compare TCP y UDP en cuanto a:
+a. Confiabilidad
+- **TCP (Transmission Control Protocol):** **Altamente confiable.** TCP garantiza la entrega de datos, el orden de los paquetes y la integridad de los datos. Para lograr esto, utiliza mecanismos como:
+    
+    - **Acuses de recibo (ACKs):** El receptor confirma la recepción de los datos.
+    - **Retransmisiones:** Si un segmento no es acusado de recibo en un tiempo determinado, se retransmite.
+    - **Numeración de secuencias:** Cada byte se numera para asegurar el reensamblaje correcto y detectar paquetes duplicados o perdidos.
+    - **Checksum:** Para la detección de errores. Esta fiabilidad lo hace adecuado para aplicaciones donde la pérdida de datos es inaceptable (ej. navegación web, correo electrónico, transferencia de archivos).
+- **UDP (User Datagram Protocol):** **No confiable.** UDP no garantiza la entrega, el orden de los paquetes ni la integridad de los datos (aunque incluye un checksum opcional que puede activarse para detectar errores básicos). Simplemente envía los datagramas sin confirmación del receptor. Si un datagrama se pierde, se duplica o llega fuera de orden, UDP no intenta corregirlo. Es un protocolo "mejor esfuerzo".
+b. Multiplexación.
+- **TCP:** Permite la **multiplexación** (envío de datos de múltiples aplicaciones a través de una única conexión de red) y la **demultiplexación** (entrega de datos a la aplicación correcta en el destino) a través del uso de **números de puerto**. Sin embargo, cada conexión TCP individual entre dos sockets es un flujo de bytes único y gestionado. Las aplicaciones que utilizan TCP aún dependen de los puertos para distinguir los flujos de datos.
+- **UDP:** También permite la **multiplexación** y **demultiplexación** a través del uso de **números de puerto**. De hecho, es el único mecanismo que tiene UDP para distinguir entre diferentes aplicaciones en un host, ya que no establece conexiones lógicas. Los puertos son esenciales para que los datagramas UDP lleguen a la aplicación correcta en el host de destino.
+c. Orientado a la conexión.
+- **TCP:** **Orientado a la conexión.** Antes de que comience cualquier intercambio de datos, TCP establece una conexión lógica entre el remitente y el receptor mediante un proceso de "triple handshake" (SYN, SYN-ACK, ACK). Esta conexión se mantiene durante toda la duración de la comunicación y se cierra formalmente una vez que los datos se han transferido. Este establecimiento y cierre de conexión añade sobrecarga pero es fundamental para la fiabilidad. 
+- **UDP:** **Sin conexión.** UDP no establece ni mantiene ninguna conexión lógica entre el remitente y el receptor. Cada datagrama UDP se envía de forma independiente, sin conocimiento previo de si el destino está listo o disponible para recibirlo. Esto reduce la sobrecarga y la latencia, pero a expensas de la fiabilidad.
+d. Controles de congestión.
+- **TCP:** **Sí, tiene robustos mecanismos de control de congestión.** TCP ajusta dinámicamente su velocidad de envío de datos basándose en la condición de la red para evitar la congestión (saturación de los enlaces o routers de la red). Utiliza algoritmos como:
+    - **Ventana de congestión:** Limita la cantidad de datos que pueden estar "en vuelo" (sin confirmar).
+    - **Arranque lento (Slow Start):** Aumenta la velocidad de envío gradualmente al inicio de la conexión.
+    - **Evitación de congestión (Congestion Avoidance):** Incrementa la velocidad de forma más lenta una vez que se ha detectado congestión o se ha superado el umbral.
+    - **Retransmisión rápida/Recuperación rápida (Fast Retransmit/Fast Recovery):** Responde rápidamente a la pérdida de paquetes sin tener que esperar un temporizador de retransmisión. Estos mecanismos son cruciales para el buen funcionamiento de Internet.
+- **UDP:** **No, no tiene mecanismos de control de congestión incorporados.** UDP simplemente envía datos a la velocidad que la aplicación se los entrega, sin tener en cuenta la capacidad de la red. Si una aplicación que utiliza UDP envía datos demasiado rápido para la red, se producirá una congestión que puede llevar a la pérdida masiva de datagramas. Es responsabilidad de la aplicación de usuario (si es necesario) implementar sus propios mecanismos de control de congestión.
+e. Utilización de puertos.
+- **TCP:** **Sí, utiliza puertos** (números de puerto de 16 bits) para identificar el proceso o aplicación específico en el host de origen y destino. Cada conexión TCP se identifica por un par de sockets (IP de origen, puerto de origen, IP de destino, puerto de destino). Los puertos son esenciales para que el sistema operativo dirija los segmentos TCP entrantes a la aplicación correcta.
+- **UDP:** **Sí, también utiliza puertos** (números de puerto de 16 bits) para identificar el proceso o aplicación específico en el host de origen y destino. Al igual que TCP, los puertos son fundamentales para la multiplexación y demultiplexación a nivel de aplicación. Un datagrama UDP se dirige a una dirección IP y un número de puerto específicos.

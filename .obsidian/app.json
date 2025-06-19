@@ -3,5 +3,5 @@
   "newFileLocation": "root",
   "attachmentFolderPath": "./Adjuntos",
   "livePreview": true,
-  "readableLineLength": false
+  "readableLineLength": true
 }

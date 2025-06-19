@@ -1,0 +1,6 @@
+Investigue qué es el MSS. ¿Cuándo y cómo se negocia?
+El **MSS (Maximum Segment Size - Tamaño Máximo de Segmento)** es un parámetro dentro del protocolo TCP que define la mayor cantidad de datos, en bytes, que un dispositivo conectado a la red puede recibir en un solo segmento TCP. Es importante destacar que el MSS se refiere únicamente a la **carga útil (payload)** del segmento TCP, es decir, la parte de los datos de la aplicación, sin incluir las cabeceras TCP ni IP.
+El MSS es crucial para evitar la **fragmentación de IP**. La fragmentación ocurre cuando un paquete IP es más grande que la **MTU (Maximum Transmission Unit - Unidad Máxima de Transmisión)** de un enlace de red por el que debe pasar. Si un paquete IP se fragmenta, se divide en trozos más pequeños que deben ser reensamblados por el host de destino, lo que consume recursos de CPU en el router (si fragmenta) y en el host, y puede reducir el rendimiento y la fiabilidad de la red.
+
+La relación es la siguiente: **MSS = MTU - (Tamaño de la cabecera IP + Tamaño de la cabecera TCP)**.
+El MSS se "negocia" o, más precisamente, se **anuncia** durante el **saludo de tres vías de TCP (three-way handshake)**, en el momento del establecimiento de la conexión. Es un proceso bidireccional e independiente para cada dirección de flujo de datos.

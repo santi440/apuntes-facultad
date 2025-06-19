@@ -1,0 +1,2 @@
+Investigue qué es el ISN (Initial Sequence Number). Relaciónelo con el saludo de tres vías.
+El **ISN (Initial Sequence Number - Número de Secuencia Inicial)** es un valor de 32 bits aleatorio que cada host TCP genera al iniciar una nueva conexión. Este número se utiliza como punto de partida para la numeración de los bytes de datos que se enviarán en esa conexión específica.

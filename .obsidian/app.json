@@ -3,5 +3,6 @@
   "newFileLocation": "root",
   "attachmentFolderPath": "./Adjuntos",
   "livePreview": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "tabSize": 4
 }

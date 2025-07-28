@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3er año/redes/Teoria/Capa de transporte.md",
+                "file": "3er año/concu/parciales/Monitores1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capa de transporte"
+              "title": "Monitores1"
             }
           }
         ],
@@ -212,8 +212,10 @@
   },
   "active": "dbd3fb998604c63e",
   "lastOpenFiles": [
-    "3er año/redes/Adjuntos/servicios por protocolo.png",
+    "3er año/concu/parciales/Monitores3.md",
+    "3er año/concu/parciales/Monitores2.md",
     "3er año/redes/Teoria/Capa de transporte.md",
+    "3er año/redes/Adjuntos/servicios por protocolo.png",
     "Adjuntos/Pasted image 20250422094051.png",
     "basura.md",
     "3er año/concu/DNS nabila.md",
@@ -250,7 +252,6 @@
     "3er año/redes/Practica 6/ej 4.md",
     "3er año/redes/Practica 6/Adjuntos",
     "3er año/redes/Practica 6/ej 3.md",
-    "3er año/redes/Practica 6/ej 2.md",
     "3er año/redes/Practica 6",
     "3er año/redes/Practica 5/ej3",
     "3er año/concu/parciales/Adjuntos",

@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiArchiveRestore",
       "LiComputer",
       "LiDiscAlbum",
       "LiAirplay"
@@ -34,5 +35,6 @@
   },
   "3er año/Proyecto": "LiAirplay",
   "3er año/Big Data": "LiDiscAlbum",
-  "3er año/redes": "LiComputer"
+  "3er año/redes": "LiComputer",
+  "3er año/BD1": "LiArchiveRestore"
 }

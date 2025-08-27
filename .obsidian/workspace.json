@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3er año/BD1/2-.md",
+                "file": "3er año/BD1/2- Teoria de diseño de base d datos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-"
+              "title": "2- Teoria de diseño de base d datos"
             }
           }
         ]
@@ -184,8 +184,10 @@
   },
   "active": "9eaf3e6a7e0c247e",
   "lastOpenFiles": [
+    "3er año/BD1/Adjuntos/WhatsApp Image 2025-08-27 at 09.16.01.jpeg",
+    "3er año/BD1/Adjuntos",
     "3er año/BD1/1- Modelo de datos.md",
-    "3er año/BD1/2-.md",
+    "3er año/BD1/2- Teoria de diseño de base d datos.md",
     "3er año/Big Data/Practica 1.md",
     "3er año/BD1",
     "3er año/Big Data/2- Hadoop.md",
@@ -226,9 +228,7 @@
     "3er año/pps",
     "3er año/concu/Practica 2/ej1.md",
     "3er año/concu/Practica 4/sincronico/ej3.md",
-    "3er año/concu/Practica 4/asincronico/ej2.md",
     "3er año/redes/Practica 8",
-    "3er año/redes/Practica 7/Untitled",
-    "3er año/redes/Practica 7/Adjuntos"
+    "3er año/redes/Practica 7/Untitled"
   ]
 }

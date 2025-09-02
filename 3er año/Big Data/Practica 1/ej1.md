@@ -1,6 +1,5 @@
 Responda para cada job: ¿Cuántas veces (invocaciones) se ejecuta la función map?
-¿Cuántas veces (invocaciones) se ejecuta la función reduce? ¿Cuántos mappers se
-ejecutan? ¿Cuántos reducers se ejecutan? ¿Qué datos recibe cada función reduce?
+¿Cuántas veces (invocaciones) se ejecuta la función reduce? ¿Cuántos mappers se ejecutan? ¿Cuántos reducers se ejecutan? ¿Qué datos recibe cada función reduce?
 ¿Cuál es la salida de cada job?
 ![[Pasted image 20250831171446.png]]
 a) Job A
@@ -79,6 +78,7 @@ Se generan 1 archivos con el conteo del total de tuplas recibido con esa clave.
 >[!NOTE] No entiendo que pasa
 >Preguntar que pasa que no me lee el  (4,97) que lo lee como 9, con el (3,21) que lo lee como 22 (nota de la nota, hay otro k1 3), (19,35) que lo lee como 3 y el 32 que esta repetido. -> a ciego patron que veo es que los ultimos de los archivos los lee mal y no se que hace con los duplicados, para mi con estos ultimos deberia sumarlos pero no me dan las matematicas
 >
+>FUN FACT el emulador elimina el ultimo caracter. Agregale un return a todos para que procese como corresponde
 
 e) Job E
 ```python
@@ -95,7 +95,7 @@ Invocaciones del reduce: 16
 mappers : 4
 Reducers: 1
 Los map invierten la tupla, k1 pasa a ser v1 y v1 pasa a ser la k1.
-Los reducers reciben todos los datos y cuentan cuantos elementos tienen con esa clave. Si originalmente tenia 21 en el v1 (que se repite dos veces), ese reducer escribe 21 2
+Los reducers reciben todos los datos y cuentan cuantos elementos tienen con esa clave. Si originalmente tenia 21 en el v1 (que se repite dos veces), ese reduce escribe (21,2)
 
 >[!NOTE] No entiendo que pasa
 >Resultado ni remotamente parecido :(

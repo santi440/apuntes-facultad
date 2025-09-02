@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -170,28 +170,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "markdown-importer:Abrir el importador de Markdown": false,
-      "bases:Crear nueva base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "44825eb4153bc759",
   "lastOpenFiles": [
+    "3er año/Big Data/Practica 1/ej6.md",
+    "3er año/Big Data/Practica 1/ej4.md",
+    "3er año/Big Data/Practica 1/ej3.md",
+    "3er año/Big Data/Practica 1/ej1.md",
+    "3er año/Big Data/Practica 1/ej2.md",
     "3er año/Big Data/Practica 1/ej8.md",
     "3er año/Big Data/1- Conceptos y Aplicaciones de Big Data.md",
     "3er año/Big Data/2- Hadoop.md",
-    "3er año/Big Data/Practica 1/ej6.md",
     "3er año/Big Data/Practica 1/ej5.md",
-    "3er año/Big Data/Practica 1/ej4.md",
-    "3er año/Big Data/Practica 1/ej3.md",
-    "3er año/Big Data/Practica 1/ej2.md",
-    "3er año/Big Data/Practica 1/ej1.md",
     "3er año/Big Data/Practica 1/extras/split1.txt",
     "3er año/Big Data/Practica 1/extras/split2.txt",
     "3er año/Big Data/Practica 1/extras/split3.txt",

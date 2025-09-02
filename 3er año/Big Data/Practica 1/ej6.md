@@ -1,5 +1,1 @@
-Una empresa proveedora de internet realizó una encuesta para conocer el grado de
-satisfacción de sus clientes, en un formulario web los clientes debían completar un
-campo con los textos "Muy satisfecho", "Algo satisfecho", "Poco satisfecho",
-“Disconforme” o "Muy disconforme". Utilice el dataset Encuesta para saber cuántos
-clientes están en cada una de las cinco categorías
+Una empresa proveedora de internet realizó una encuesta para conocer el grado de satisfacción de sus clientes, en un formulario web los clientes debían completar un campo con los textos "Muy satisfecho", "Algo satisfecho", "Poco satisfecho", “Disconforme” o "Muy disconforme". Utilice el dataset Encuesta para saber cuántos clientes están en cada una de las cinco categorías

@@ -1,6 +1,6 @@
 Indique si utilizando el dataset Libros es posible resolver los siguientes problemas:
 a. Obtener los títulos de todos los libros. FALSO -> Una tarea map debería analizar una  tupla en forma independiente del resto de las tuplas por lo que no puedo saber cual es la primera.
-b. Obtener la cantidad de palabras promedio por párrafo. VERDADERO -> cada parrafo es una linea
+b. Obtener la cantidad de palabras promedio por párrafo. FALSO -> cada parrafo es una linea
 c. Obtener la cantidad de párrafos promedio por libro. FALSO-> Si son independientes no tengo manera de saberlo, es un gran dataset, no puedo determinar cual es el libro
 d. Obtener la cantidad de caracteres del párrafo más extenso. VERADERO -> map cuenta los caracteres por parrafo y reduce determina el max
 e. Cantidad total de párrafos con diálogos (se entiende por párrafo con diálogo

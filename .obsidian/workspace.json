@@ -11,10 +11,14 @@
             "id": "5a53b63a1419a427",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "3er año/BD1/Practica/Practica 4/ej 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ej 3"
             }
           }
         ]
@@ -169,13 +173,15 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "markdown-importer:Abrir el importador de Markdown": false,
-      "bases:Crear nueva base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "5a53b63a1419a427",
   "lastOpenFiles": [
+    "3er año/BD1/Practica/Practica 4/ej 2.md",
+    "3er año/BD1/Practica/Practica 4/ej 3.md",
+    "3er año/BD1/Practica/Practica 4",
     "3er año/BD1/Practica/Practica 3/ej9.md"
   ]
 }

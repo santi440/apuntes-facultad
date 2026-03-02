@@ -23,3 +23,4 @@ void puntoC{
 | puntoB        | 1123    | automatica | 8              | 8          |
 | puntoC        |         |            | 1-11           | 10-11      |
 | variableC     | 0       | automatica | 10             | 10         |
+azsxcvbnm,

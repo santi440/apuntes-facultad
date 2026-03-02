@@ -1,0 +1,5 @@
+Verdadero/Falso. Justifique
+A. En una especialización, la entidad padre no representa datos que realmente existan,sino que sirve para representar los aspectos comunes de las entidades hijas. FALSO -> en la especialización la entidad padre contiene tuplas que no están en las hijas, eliminarla implicaria perder información
+B. En una agregación, la cardinalidad mínima debe ser mayor a 0. FALSO -> importan las cardinalidades máximas y deben ser N de ambos lados
+C. Una entidad puede no tener un atributo identificador en el modelo ER. FALSO-> debe tener un identificador, al menos un `#entidad` para diferenciar univocamente cada tupla
+D. No es correcto modelar atributos en las relaciones en un modelo ER. FALSO -> pueden existir atributos en relaciones sin problemas siempre que así el modelo represente correctamente el contexto.

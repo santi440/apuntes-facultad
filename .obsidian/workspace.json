@@ -11,15 +11,14 @@
             "id": "21a64c7d220737c9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "3er año/Big Data/Practica 2/ej2.md",
-                "bFile": "3er año/Big Data/Practica 2/ej2.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "4to año/FTC/teoria/1- Maquinas de turing.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: ej2"
+              "icon": "lucide-file",
+              "title": "1- Maquinas de turing"
             }
           }
         ]
@@ -79,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c949a216266940f5",
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3er año/concu/Practica 3/ej7.md",
+                "file": "4to año/FTC/teoria/1- Maquinas de turing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ej7"
+              "title": "Outline of 1- Maquinas de turing"
             }
           },
           {
@@ -163,11 +163,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,6 +185,19 @@
   },
   "active": "21a64c7d220737c9",
   "lastOpenFiles": [
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309153700.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309150646.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309150010.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309145909.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309145539.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309145454.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309144212.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309141218.png",
+    "4to año/FTC/teoria/Adjuntos",
+    "4to año/FTC/teoria",
+    "4to año/FTC",
+    "4to año/FTC/teoria/1- Maquinas de turing.md",
+    "4to año",
     "3er año/Big Data/Practica 1/Adjuntos/Pasted image 20250831171446.png",
     "3er año/BD1/Mega resumen.md",
     "conflict-files-obsidian-git.md",
@@ -201,8 +215,6 @@
     "3er año/Big Data/Practica 1/extras/split3.txt",
     "3er año/Big Data/Practica 1/extras/split4.txt",
     "3er año/Big Data/Practica 1/extras/split1.txt",
-    "3er año/Big Data/Practica 1/extras/split2.txt",
-    "3er año/Big Data/Practica 1/extras",
     "3er año/Big Data/Practica 1/ej8.md",
     "3er año/Big Data/Practica 1/ej6.md",
     "3er año/Big Data/Practica 1/ej5.md",
@@ -210,24 +222,14 @@
     "3er año/Big Data/Practica 1/ej3.md",
     "3er año/Big Data/Practica 1/ej2.md",
     "3er año/Big Data/Practica 1/ej1.md",
-    "3er año/Big Data/Practica 1/Adjuntos",
-    "3er año/Big Data/Practica 1",
     "3er año/Big Data/Adjuntos/Pasted image 20250826160255.png",
     "3er año/Big Data/Adjuntos/Pasted image 20250826160248.png",
-    "3er año/Big Data/Adjuntos/Pasted image 20250826160215.png",
-    "3er año/Big Data/Adjuntos/Pasted image 20250826153128.png",
     "3er año/Big Data/2- Hadoop.md",
     "3er año/BD1/Practica/practica 2/ej7.md",
     "3er año/BD1/Practica/practica 2/ej6 o 5 falso.md",
     "3er año/BD1/Practica/practica 2/ej5.md",
     "3er año/BD1/Practica/practica 2/ej4.md",
     "3er año/BD1/Practica/practica 2/ej3.md",
-    "3er año/BD1/Practica/practica 2/ej2.md",
-    "3er año/BD1/Practica/practica 2/ej1.md",
-    "3er año/BD1/Practica/Practica 1/Adjuntos/cuadros.png",
-    "3er año/BD1/Practica/Practica 1/Adjuntos/Pasted image 20250912190411.png",
-    "3er año/BD1/Practica/Practica 1/Adjuntos/Pasted image 20250907212650.png",
-    "3er año/BD1/Practica/Practica 1/Adjuntos/Pasted image 20250831162940.png",
-    "3er año/BD1/Practica/Practica 1/Adjuntos/Pasted image 20250831152732.png"
+    "3er año/BD1/Practica/practica 2/ej2.md"
   ]
 }

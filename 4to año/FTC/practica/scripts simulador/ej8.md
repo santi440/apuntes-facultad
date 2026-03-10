@@ -70,3 +70,26 @@ qea, 7, I
 qv2, 9
 qea, 8, I
 ```
+
+
+alt
+```
+name: Ejercicio 8
+init: q0
+accept: qA
+q0, _, _
+qa, 1, a, >, >
+
+qa, 1, _
+qa, 1, a, >, >
+
+qa, _, _
+qb, _, _, <, -
+
+qb, 1, _
+qb, 1, b, <, >
+
+qb, _, _
+qa, 1, /, -, >
+
+```

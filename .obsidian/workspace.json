@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/FTC/practica/practica 1.md",
+                "file": "4to año/FTC/practica/scripts simulador/ej8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "practica 1"
+              "title": "ej8"
             }
           },
           {
@@ -198,8 +198,8 @@
   },
   "active": "fe130d5008ad3f86",
   "lastOpenFiles": [
-    "4to año/FTC/practica/scripts simulador/ej6.md",
     "4to año/FTC/practica/practica 1.md",
+    "4to año/FTC/practica/scripts simulador/ej6.md",
     "4to año/FTC/SimuladorMT/assets/vendors/semantic.min.js",
     "4to año/FTC/SimuladorMT/assets/vendors/nouislider.min.js",
     "4to año/FTC/SimuladorMT/assets/vendors/kinetic.min.js",

@@ -274,3 +274,17 @@ Función de transición δ:
 33. δ(qv2, 7) = (qea, 6, L)
 34. δ(qv2, 8) = (qea, 7, L)
 35. δ(qv2, 9) = (qea, 8, L)
+
+ALT
+δ(q0, (B,B)) = (qa,(1, R) (a,R))
+δ(qa, (1,B)) = (qa,(1, R) (a,R))
+δ(qa, (B,B)) = (qb,(B, L) (B,S))
+δ(qb, (1,B)) = (qb,(1, L) (b,R))
+δ(qb, (B,B)) = (qa,(1, S) (/,S))
+
+
+
+
+
+
+

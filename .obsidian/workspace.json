@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21a64c7d220737c9",
+            "id": "fe130d5008ad3f86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/FTC/teoria/1- Maquinas de turing.md",
+                "file": "4to año/FTC/practica/scripts simulador/ej6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1- Maquinas de turing"
+              "title": "ej6"
+            }
+          },
+          {
+            "id": "b3e3f20d84c366b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4to año/FTC/practica/scripts simulador/ej8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ej8"
             }
           }
         ]
@@ -44,7 +58,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c949a216266940f5",
@@ -172,19 +185,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "bases:Crear nueva base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21a64c7d220737c9",
+  "active": "f1e2410a4e12c561",
   "lastOpenFiles": [
+    "4to año/FTC/SimuladorMT/assets/vendors/semantic.min.js",
+    "4to año/FTC/SimuladorMT/assets/vendors/nouislider.min.js",
+    "4to año/FTC/SimuladorMT/assets/vendors/kinetic.min.js",
+    "4to año/FTC/SimuladorMT/assets/vendors/jquery.min.js",
+    "4to año/FTC/SimuladorMT/assets/vendors/jquery.cookie.js",
+    "4to año/FTC/SimuladorMT/assets/vendors/codemirror.js",
+    "4to año/FTC/SimuladorMT/assets/fonts/icons.woff2",
+    "4to año/FTC/SimuladorMT/assets/fonts/icons.woff",
+    "4to año/FTC/SimuladorMT/assets/fonts/icons.ttf",
+    "4to año/FTC/SimuladorMT/assets/css/semantic.min.css",
+    "4to año/FTC/SimuladorMT/assets/css/nouislider.min.css",
+    "4to año/FTC/practica/scripts simulador/ej8.md",
+    "4to año/FTC/practica/scripts simulador/ej6.md",
+    "4to año/FTC/practica/practica 1.md",
+    "4to año/FTC/teoria/1- Maquinas de turing.md",
+    "4to año/FTC/practica/scripts simulador/ej7.md",
+    "4to año/FTC/practica/Adjuntos/Pasted image 20260310132243.png",
+    "4to año/FTC/practica/scripts simulador/ej3.md",
+    "util.md",
     "4to año/FTC/teoria/Adjuntos/Pasted image 20260309153700.png",
     "4to año/FTC/teoria/Adjuntos/Pasted image 20260309150646.png",
     "4to año/FTC/teoria/Adjuntos/Pasted image 20260309150010.png",
@@ -193,11 +225,6 @@
     "4to año/FTC/teoria/Adjuntos/Pasted image 20260309145454.png",
     "4to año/FTC/teoria/Adjuntos/Pasted image 20260309144212.png",
     "4to año/FTC/teoria/Adjuntos/Pasted image 20260309141218.png",
-    "4to año/FTC/teoria/Adjuntos",
-    "4to año/FTC/teoria",
-    "4to año/FTC",
-    "4to año/FTC/teoria/1- Maquinas de turing.md",
-    "4to año",
     "3er año/Big Data/Practica 1/Adjuntos/Pasted image 20250831171446.png",
     "3er año/BD1/Mega resumen.md",
     "conflict-files-obsidian-git.md",
@@ -205,16 +232,10 @@
     "3er año/Proyecto/3-.md",
     "3er año/Proyecto/2- Git.md",
     "3er año/Proyecto/1- Introduccion.md",
-    "3er año/Proyecto",
     "3er año/Cloud/AWS.md",
-    "3er año/Cloud",
     "3er año/Big Data/Practica 2/ej3.md",
     "3er año/Big Data/Practica 2/ej2.md",
     "3er año/Big Data/Practica 2/ej1.md",
-    "3er año/Big Data/Practica 2",
-    "3er año/Big Data/Practica 1/extras/split3.txt",
-    "3er año/Big Data/Practica 1/extras/split4.txt",
-    "3er año/Big Data/Practica 1/extras/split1.txt",
     "3er año/Big Data/Practica 1/ej8.md",
     "3er año/Big Data/Practica 1/ej6.md",
     "3er año/Big Data/Practica 1/ej5.md",
@@ -222,14 +243,6 @@
     "3er año/Big Data/Practica 1/ej3.md",
     "3er año/Big Data/Practica 1/ej2.md",
     "3er año/Big Data/Practica 1/ej1.md",
-    "3er año/Big Data/Adjuntos/Pasted image 20250826160255.png",
-    "3er año/Big Data/Adjuntos/Pasted image 20250826160248.png",
-    "3er año/Big Data/2- Hadoop.md",
-    "3er año/BD1/Practica/practica 2/ej7.md",
-    "3er año/BD1/Practica/practica 2/ej6 o 5 falso.md",
-    "3er año/BD1/Practica/practica 2/ej5.md",
-    "3er año/BD1/Practica/practica 2/ej4.md",
-    "3er año/BD1/Practica/practica 2/ej3.md",
-    "3er año/BD1/Practica/practica 2/ej2.md"
+    "3er año/Big Data/2- Hadoop.md"
   ]
 }

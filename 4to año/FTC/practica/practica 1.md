@@ -185,7 +185,7 @@ Función de transición δ:
 15. δ(qFinB, b) = (qFinB, b, R) -> no llegue al fin, sigo
 16. δ(qFinB, B) = (qb, B, L) -> encontre fin, volve
 17. δ(qFinB, α) = (qb, α, L) -> por acá ya pasé
-18. δ(qFinA, β ) = (qb, β, L) -> por acá ya pasé
+18. δ(qFinB, β ) = (qb, β, L) -> por acá ya pasé
 19. δ(qb, b) = (qInicioB, β , L) -> marcó
 20. δ(qInicioB, a) = (qInicioB, a, L) -> sigo
 21. δ(qInicioB, b) = (qInicioB, b, L) -> sigo

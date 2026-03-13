@@ -149,7 +149,7 @@ Solo se me ocurré pasos de más. Me muevo a la izquierda o derecha cambiando a 
 - δ(qaux, T) = (qotro, T , L)
 
 >[!NOTE] salvedad
->X es el dato que tenia que cambiar. Me muevo a la derecha e inmediatamente me muevo a la izquierda. Voy a multiplicar el segundo paso por cada simbolo del abecedario (T deberia de ser un simbolo)
+>X es el dato que tenia que cambiar. Me muevo a la derecha e inmediatamente me muevo a la izquierda. Voy a multiplicar el segundo paso por cada simbolo del abecedario (T deberia de ser un simbolo). Y ademas por cada estado necesito un estado adicional porque debo volver a ese punto, un estado aux por cada estado
 
 
 Ejercicio 6. En clase se construyó una MT con 2 cintas que acepta L = {w | w ∈ {a, b}* y w es un palíndromo}. Construir una MT equivalente con 1 cinta. Ayuda: la solución que vimos para aceptar el lenguaje de las cadenas anbn, con n ≥ 1, puede ser un buen punto de partida. 
@@ -281,10 +281,4 @@ ALT
 δ(qa, (B,B)) = (qb,(B, L) (B,S))
 δ(qb, (1,B)) = (qb,(1, L) (b,R))
 δ(qb, (B,B)) = (qa,(1, S) (/,S))
-
-
-
-
-
-
 

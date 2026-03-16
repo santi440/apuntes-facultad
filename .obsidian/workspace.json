@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/Inge3/teoria/Clase 1- Proyectos y programas.md",
+                "file": "4to año/FTC/teoria/2-  jerarquia de la computabilidad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 1- Proyectos y programas"
+              "title": "2-  jerarquia de la computabilidad"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c949a216266940f5",
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4to año/Inge3/teoria/Clase 1- Proyectos y programas.md",
+                "file": "4to año/FTC/teoria/2-  jerarquia de la computabilidad.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Clase 1- Proyectos y programas"
+              "title": "Outline of 2-  jerarquia de la computabilidad"
             }
           },
           {
@@ -184,18 +185,20 @@
   },
   "active": "cfcd214f73a5ac77",
   "lastOpenFiles": [
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316150329.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316143729.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316143218.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316143204.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316141955.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316141312.png",
+    "4to año/Inge3/teoria/Clase 1- Proyectos y programas.md",
+    "4to año/FTC/teoria/2-  jerarquia de la computabilidad.md",
     "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313174513.png",
     "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313173121.png",
     "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313173058.png",
     "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313173031.png",
     "util.md",
-    "4to año/Inge3/teoria/Clase 1- Proyectos y programas.md",
     "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313172835.png",
-    "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313172753.png",
-    "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313171342.png",
-    "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313171132.png",
-    "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313165206.png",
-    "4to año/Inge3/teoria/Adjuntos/Pasted image 20260313163026.png",
     "4to año/Inge3/teoria/Adjuntos",
     "4to año/Inge3/teoria",
     "4to año/Inge3",
@@ -212,7 +215,6 @@
     "Design Patterns.md",
     "4to año/FTC/SimuladorMT/assets/fonts/icons.woff2",
     "4to año/FTC/SimuladorMT/assets/fonts/icons.woff",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260309153700.png",
     "4to año/FTC/practica/scripts simulador/ej8.md",
     "4to año/FTC/practica/scripts simulador/ej7.md",
     "4to año/FTC/practica/scripts simulador/ej6.md",
@@ -228,7 +230,6 @@
     "3er año/redes/Practica 7/ej 8.md",
     "3er año/redes/Practica 7/ej 7.md",
     "3er año/redes/Practica 7/ej 6.md",
-    "3er año/redes/Practica 7/ej 5.md",
-    "3er año/redes/Practica 7/ej 4.md"
+    "3er año/redes/Practica 7/ej 5.md"
   ]
 }

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/FTC/teoria/2-  jerarquia de la computabilidad.md",
+                "file": "4to año/FTC/practica/practica 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-  jerarquia de la computabilidad"
+              "title": "practica 1"
             }
           }
         ]
@@ -58,7 +58,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -185,19 +185,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "bases:Crear nueva base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "cfcd214f73a5ac77",
   "lastOpenFiles": [
+    "4to año/FTC/practica/practica 1.md",
     "4to año/FTC/teoria/2-  jerarquia de la computabilidad.md",
     "4to año/FTC/practica/practica 2.md",
     "4to año/aspectos eticos/inteligencia artificial.md",
@@ -222,7 +223,6 @@
     "4to año/bd2/intro.md",
     "4to año/SO/teoria/Intro.md",
     "4to año/bd2",
-    "4to año/FTC/practica/practica 1.md",
     "4to año/SO/teoria",
     "4to año/SO",
     "4to año/FTC/teoria/clases/FTC-2026---Clase-1.pdf",

@@ -28,6 +28,7 @@ Dado una entrada w ∈ Ʃ*, al ingresar a la maquina de Turing es aceptado. caso
 
 
 4. Probar que todo lenguaje finito es recursivo. Alcanza con plantear la idea general. Ayuda: encontrar una MT que lo decida (pensar cómo definir sus transiciones para cada una de las cadenas del lenguaje).
+5. 
 Ejercicio 2. Considerando la Propiedad 2 estudiada en clase:
 5. ¿Cómo implementaría la copia de la entrada w en la cinta 2 de la MT M?
 6. ¿Cómo implementaría el borrado del contenido de la cinta 2 de la MT M?

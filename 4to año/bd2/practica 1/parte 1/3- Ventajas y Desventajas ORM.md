@@ -1,0 +1,8 @@
+## Ventajas
+1. Jerarquia: El ORM te permite definir la estrategia (por ejemplo, _Joined_) una sola vez. Al hacer un `session.get(User.class, id)`, el ORM hace los `JOINs` necesarios por debajo para devolverte un objeto `DriverUser` o `TourGuideUser` con todos sus atributos específicos (`expedient`, `education`) de forma transparente
+2. Relaciones complejas (Purchase -> ItemService -> Service): El **Lazy Loading**. Podés cargar una `Purchase` para ver el `totalPrice` sin traer todos los `ItemService` de la base de datos inmediatamente. Si luego el código pide `purchase.getItems()`, el ORM hace la consulta en ese instante. Esto optimiza el uso de memoria en un sistema donde una compra puede tener muchos ítems. 
+3. Mantenibilidad del código y cambios frecuentes: Si se agregan o modifican datos o relaciones el ORM detecta qué atributo del objeto cambió y genera el SQL exacto.
+## Desventajas
+1. N+1 consultas: Si querés listar 20 `Purchases` y mostrar el nombre del `User` de cada una, si no configurás bien el "Fetch", el ORM podría hacer 1 consulta para las compras y **20 consultas adicionales** (una por cada usuario). En un sistema con muchos datos, esto destruye el rendimiento. Con JDBC, harías un solo `JOIN` y listo.
+2. Curva de Aprendizaje: Debes conocer como funciona un ORM como Hibernate para configurar las cosas correctamente.
+3. Overhead de Memoria y Rendimiento: El ORM mantiene una copia de cada objeto en su "Caché de primer nivel" para saber si cambiaron (Dirty Checking). En procesos batch (por ejemplo, si a fin de mes querés procesar miles de `Purchases` para generar estadísticas), el ORM puede consumir muchísima RAM. En esos casos, JDBC puro sigue siendo el rey de la velocidad.

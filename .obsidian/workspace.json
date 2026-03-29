@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "15a1e519fdb8a64b",
+        "id": "ac39e889d3eae2d2",
         "type": "tabs",
         "children": [
           {
-            "id": "a9dc2011c3d085f2",
+            "id": "0713ac88125ea2c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/SO/teoria/03- Syscall.md",
+                "file": "4to año/FTC/teoria/3- Indecibilidad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03- Syscall"
+              "title": "3- Indecibilidad"
             }
           }
         ]
@@ -182,10 +182,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9dc2011c3d085f2",
+  "active": "0713ac88125ea2c9",
   "lastOpenFiles": [
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260325182511.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260327193301.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260327191955.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260327191922.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260327191914.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260327190629.png",
+    "4to año/Inge3/teoria/tercera.md",
+    "4to año/FTC/teoria/3- Indecibilidad.md",
+    "4to año/bd2/clase 3.md",
     "4to año/SO/teoria/03- Syscall.md",
+    "4to año/SO/teoria/Adjuntos/Pasted image 20260325182511.png",
     "4to año/SO/teoria/03- syscall.md",
     "4to año/FTC/practica/practica 2.md",
     "4to año/FTC/practica/Adjuntos/Pasted image 20260323225353.png",
@@ -205,11 +213,6 @@
     "4to año/aspectos eticos",
     "4to año/SO/practica",
     "4to año/FTC/teoria/Adjuntos/Pasted image 20260316150329.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316143729.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316143218.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316143204.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316141955.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260316141312.png",
     "4to año/Inge3/teoria/Clase 1- Proyectos y programas.md",
     "4to año/Inge3/teoria/Adjuntos",
     "4to año/Inge3/teoria",
@@ -226,9 +229,6 @@
     "4to año/FTC/practica/scripts simulador/ej7.md",
     "4to año/FTC/practica/scripts simulador/ej6.md",
     "4to año/FTC/practica/scripts simulador/ej3.md",
-    "4to año/FTC/teoria/1- Maquinas de turing.md",
-    "3er año/redes/Teoria/Clase 9 Capa de red.md",
-    "3er año/redes/Teoria/Clase 4 - DNS.md",
-    "3er año/redes/Teoria/Clase 3 - HTTPS.md"
+    "4to año/FTC/teoria/1- Maquinas de turing.md"
   ]
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/SO/teoria/03 - Threads.md",
+                "file": "4to año/SO/practica/Practica 3 (panchito cabra)/Practica 2.06 - Drivers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Threads"
+              "title": "Practica 2.06 - Drivers"
             }
           }
         ]
@@ -184,25 +184,31 @@
   },
   "active": "585fb725f992efb7",
   "lastOpenFiles": [
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260401195007.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260401194822.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260401194812.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260401190921.png",
-    "4to año/FTC/practica/practica 2.md",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260403233219.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260403233144.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Practica 2.05 - Guiada Modulos.md",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Practica 2.06 - Drivers.md",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260403195024.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260403194504.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260403194054.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260403190527.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Practica 2.04 - Modulos y drivers.md",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260403184631.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Practica 2.03 -Monitoreando System Calls.md",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Practica 2.02 - segunda parte.md",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260402212935.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Practica 2.01 - Primera parte.md",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260402165905.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260402165715.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos/Pasted image 20260402165252.png",
+    "4to año/SO/practica/Practica 3 (panchito cabra)/Adjuntos",
     "4to año/SO/teoria/03 - Threads.md",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260401183722.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260401182804.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260401182018.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260401181457.png",
+    "4to año/FTC/practica/practica 2.md",
     "4to año/FTC/practica/Practica 3.md",
     "4to año/aspectos eticos/clasificación binaria.md",
-    "4to año/SO/practica/Practica 3 (panchito cabra)/Practica 2.md",
     "4to año/SO/practica/Practica 3 (panchito cabra)",
     "4to año/FTC/practica/practica 1.md",
     "4to año/FTC/teoria/4- Reduccion.md",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260330143611.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260330142459.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260330140741.png",
     "4to año/bd2/practica 1/parte 2/15 - Implementar service.md",
     "4to año/bd2/practica 1/parte 2/14 - tipos de id.md",
     "4to año/bd2/practica 1/parte 2/13- persistencia por alcanze.md",
@@ -217,18 +223,12 @@
     "4to año/bd2/practica 1/parte 1/5- JPA y Hibernate.md",
     "4to año/bd2/practica 1/parte 1/4- JPA.md",
     "4to año/bd2/practica 1/parte 1/3- Ventajas y Desventajas ORM.md",
-    "4to año/bd2/clase 3.md",
-    "4to año/bd2/practica 1/parte 1/2- relacional vs oo.md",
     "4to año/bd2/practica 1/parte 1/Adjuntos",
-    "4to año/bd2/practica 1/parte 1/1- ORM vs JDBC.md",
     "4to año/bd2/practica 1/parte 1",
     "4to año/bd2/practica 1",
-    "4to año/FTC/teoria/3- Indecibilidad.md",
-    "4to año/Inge3/teoria/tercera.md",
     "4to año/SO/practica/practica 1",
     "4to año/SO/practica/Adjuntos",
     "4to año/aspectos eticos",
-    "4to año/SO/practica",
-    "4to año/Inge3/teoria/Adjuntos"
+    "4to año/SO/practica"
   ]
 }

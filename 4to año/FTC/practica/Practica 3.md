@@ -1,4 +1,7 @@
-(Se que el l1 lo hice en casa)
+## Ejercicio 1 
+¿Qué es una MT universal?
+![[Pasted image 20260329202632.png]]
+Una maquina de turing capaz de ejecutar cualquier otra maquina de turing que le venga como entrada junto a un input w. <M> es una maquina de turing codificada para poder ser recibida.
 
 ## Ejercicio 2. 
 Explicar cómo enumeraría los números naturales pares, los números enteros, los números racionales (o fraccionarios), y las cadenas de Ʃ* siendo Ʃ = {0, 1}.

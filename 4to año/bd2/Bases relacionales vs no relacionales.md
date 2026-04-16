@@ -41,5 +41,5 @@ Logra que las consultas sean mas performantes. Se definen a nivel de colecciones
 #### Agregation framework
 aggregate -> operacion
 Hace un pipeline
-match ->group -> lockup -> ...
+match ->project -> lockup -> group -> sort
 match es un filter. Puede ejecutarse varias veces y tengo que asegurarme que no cambie el resultado en base a cuantas veces se ejecute.

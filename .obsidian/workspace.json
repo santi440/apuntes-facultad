@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5bf2cea083c7fa62",
+        "id": "a3d9d015fbc15fe1",
         "type": "tabs",
         "children": [
           {
-            "id": "d92ec410a812eb75",
+            "id": "37439015a5b6850b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/bd2/practica 1/parte 3/44 - Service.md",
+                "file": "4to año/bd2/practica 1/parte 3/47 - SQL mejor en algunos caso.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "44 - Service"
+              "title": "47 - SQL mejor en algunos caso"
             }
           }
         ]
@@ -182,10 +182,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d92ec410a812eb75",
+  "active": "37439015a5b6850b",
   "lastOpenFiles": [
-    "4to año/bd2/practica 1/parte 3/43 - capas.md",
+    "4to año/bd2/practica 1/parte 3/47 - SQL mejor en algunos caso.md",
+    "4to año/bd2/practica 1/parte 3/45 - HQL vs JPQL y SQL.md",
     "4to año/bd2/practica 1/parte 3/44 - Service.md",
+    "4to año/bd2/practica 1/parte 3/43 - capas.md",
     "4to año/bd2/practica 1/parte 3/Adjuntos/Pasted image 20260418225535.png",
     "4to año/bd2/practica 1/parte 3/Adjuntos",
     "4to año/bd2/practica 1/parte 3/42 - transacción.md",
@@ -211,8 +213,6 @@
     "4to año/bd2/practica 1/parte 2/23 - tabla comparación.md",
     "4to año/bd2/practica 1/parte 2/22 - Lazy vs Eager.md",
     "4to año/bd2/practica 1/parte 2/21- fetch.md",
-    "4to año/FTC/practica/Practica 3.md",
-    "4to año/bd2/teorias/Bases relacionales vs no relacionales.md",
     "4to año/SO/teoria/Adjuntos/Pasted image 20260415191411.png",
     "4to año/SO/teoria/Adjuntos/Pasted image 20260415191112.png",
     "4to año/SO/teoria/Adjuntos/Pasted image 20260415190102.png",

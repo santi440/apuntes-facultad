@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiCoffee",
+      "LiFolderCode",
       "LiCode",
-      "LiAlignHorizontalJustifyCenter",
-      "LiCloudCog",
-      "LiArchiveRestore"
+      "LiGroup",
+      "LiGitCompare",
+      "🖥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,10 @@
   "3er año/Cloud": "LiCloudCog",
   "3er año/concu": "LiAlignHorizontalJustifyCenter",
   "3er año/cplp": "LiCode",
-  "3er año/oo2": "LiCoffee"
+  "3er año/oo2": "LiCoffee",
+  "4to año/aspectos eticos": "LiBookOpen",
+  "4to año/bd2": "LiDatabaseBackup",
+  "4to año/FTC": "LiGitCompare",
+  "4to año/Inge3": "LiGroup",
+  "4to año/SO": "LiFolderCode"
 }

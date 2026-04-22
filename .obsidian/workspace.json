@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4ad51f18b821b964",
+        "id": "f94719199369c5c3",
         "type": "tabs",
         "children": [
           {
-            "id": "77e95aae954b929f",
+            "id": "2f9e667f7658e3c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/FTC/practica/Practica 4.md",
+                "file": "4to año/SO/teoria/06 - Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practica 4"
+              "title": "06 - Docker"
             }
           }
         ]
@@ -182,12 +182,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77e95aae954b929f",
+  "active": "2f9e667f7658e3c2",
   "lastOpenFiles": [
-    "3er año/redes/Adjuntos/Untitled.md",
-    "4to año/SO/practica/Practica 3 real/Parte teorica.md",
-    "4to año/SO/practica/Practica 3 real/Parte practica.md",
-    "4to año/FTC/NP - completitud.md",
+    "4to año/SO/teoria/Adjuntos/Pasted image 20260422182620.png",
+    "4to año/SO/teoria/05 - cont virt.md",
+    "4to año/SO/teoria/06 - Docker.md",
+    "4to año/SO/practica/Practica 3 real/02 - Parte practica.md",
     "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422170618.png",
     "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422170029.png",
     "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165958.png",
@@ -196,39 +196,39 @@
     "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165616.png",
     "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422163727.png",
     "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422163556.png",
+    "4to año/SO/practica/Practica 3 real/01- Parte teorica.md",
     "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422163227.png",
     "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422162918.png",
-    "4to año/SO/practica/Practica 3 real/02 - Parte practica.md",
-    "4to año/SO/practica/Practica 3 real/01- Parte teorica.md",
     "4to año/FTC/teoria/7 - espacio - tiempo.md",
     "4to año/FTC/teoria/6- NP - completitud.md",
-    "4to año/aspectos eticos/modulo 2/01- Eficiencia Energética.md",
-    "4to año/aspectos eticos/modulo 2/Adjuntos",
-    "4to año/aspectos eticos/modulo 1 IA/inteligencia artificial.md",
-    "4to año/aspectos eticos/modulo 1 IA",
-    "4to año/aspectos eticos/modulo 2",
-    "4to año/aspectos eticos/Adjuntos",
-    "2do año/ISO/07 - Memoria II.md",
+    "4to año/bd2/teorias/Bases relacionales vs no relacionales.md",
     "4to año/bd2/practica 1/parte 3/47 - SQL mejor en algunos caso.md",
     "4to año/bd2/practica 1/parte 3/45 - HQL vs JPQL y SQL.md",
     "4to año/bd2/practica 1/parte 3/44 - Service.md",
     "4to año/bd2/practica 1/parte 3/43 - capas.md",
-    "4to año/bd2/practica 1/parte 3/Adjuntos",
     "4to año/bd2/practica 1/parte 3/42 - transacción.md",
     "4to año/bd2/practica 1/parte 3/41 - implementación.md",
     "4to año/bd2/practica 1/parte 3/40 - Repository.md",
     "4to año/bd2/practica 1/parte 3/39 - DAO vs Repository.md",
-    "4to año/bd2/practica 1/parte 2/38 - escalabilidad jerarquia.md",
     "4to año/bd2/practica 1/parte 3",
+    "4to año/bd2/practica 1/parte 2/38 - escalabilidad jerarquia.md",
     "4to año/bd2/practica 1/parte 2/37 - Impacto jerarquias relaciones.md",
     "4to año/bd2/practica 1/parte 2/36 - Table_per_class.md",
     "4to año/bd2/practica 1/parte 2/35 - Joined.md",
-    "4to año/bd2/practica 1/parte 2/33 - tablita jerarquia.md",
     "4to año/bd2/practica 1/parte 2/34 - implementar y correr test.md",
+    "4to año/bd2/practica 1/parte 2/33 - tablita jerarquia.md",
     "4to año/bd2/practica 1/parte 2/32 - Lo que venia haciendo.md",
-    "4to año/FTC/Adjuntos",
+    "4to año/bd2/practica 1/parte 2/31 - REMOVE.md",
+    "4to año/bd2/practica 1/parte 2/30 - otro otro ejemplo.md",
+    "4to año/bd2/practica 1/parte 2/29 - otro ejemplo.md",
     "4to año/FTC/practica/originales/FinalACmar26.pdf",
     "4to año/SO/practica/Practica 3 real/Adjuntos",
-    "4to año/SO/practica/Practica 3 real"
+    "4to año/SO/practica/Practica 3 real",
+    "4to año/FTC/practica/originales/FTC-2026---Trabajo-4.pdf",
+    "4to año/FTC/practica/originales/FTC-2026---Trabajo-3.pdf",
+    "4to año/FTC/practica/originales/FTC-2026---Trabajo-2.pdf",
+    "Documento sin título",
+    "4to año/FTC/Adjuntos",
+    "4to año/bd2/teorias"
   ]
 }

@@ -50,3 +50,7 @@ Cualquier usuario que esta dentro de un userspace puede crear nuevos procesos  s
 ![[Pasted image 20260415191112.png]]
 comparacion
 ![[Pasted image 20260415191411.png]]
+
+
+
+ACLARACION: un proceso puede estar en un solo control group EN TODA LA JERARQUIA

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/FTC/teoria/7 - espacio - tiempo.md",
+                "file": "4to año/SO/practica/Practica 3 real/02 - Parte practica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 - espacio - tiempo"
+              "title": "02 - Parte practica"
             }
           }
         ]
@@ -182,14 +182,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1e2410a4e12c561",
+  "active": "2f9e667f7658e3c2",
   "lastOpenFiles": [
-    "4to año/FTC/teoria/6- NP - completitud.md",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422170618.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422170029.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165958.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165928.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165848.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165616.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422163727.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422163556.png",
+    "4to año/SO/practica/Practica 3 real/01- Parte teorica.md",
+    "4to año/SO/practica/Practica 3 real/02 - Parte practica.md",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422163227.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422162918.png",
+    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422162601.png",
     "4to año/FTC/teoria/7 - espacio - tiempo.md",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260420151058.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260420143128.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260420141653.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260420141050.png",
+    "4to año/FTC/teoria/6- NP - completitud.md",
     "4to año/bd2/teorias/Bases relacionales vs no relacionales.md",
     "4to año/bd2/practica 1/parte 3/47 - SQL mejor en algunos caso.md",
     "4to año/bd2/practica 1/parte 3/45 - HQL vs JPQL y SQL.md",
@@ -212,22 +221,13 @@
     "4to año/bd2/practica 1/parte 2/29 - otro ejemplo.md",
     "4to año/bd2/practica 1/parte 2/28 - composición ejemplo.md",
     "4to año/bd2/practica 1/parte 2/27 - cascade - orphanRemoval.md",
-    "4to año/bd2/practica 1/parte 2/26 - uso de cascade.md",
-    "4to año/bd2/practica 1/parte 2/25 - Cascade tipos.md",
-    "4to año/bd2/practica 1/parte 2/24 - LazyInitializationException.md",
     "4to año/FTC/practica/originales/FinalACmar26.pdf",
-    "4to año/Inge3/teoria/Adjuntos/Pasted image 20260417174004.png",
-    "4to año/Inge3/teoria/Adjuntos/Pasted image 20260417173947.png",
-    "4to año/Inge3/teoria/Adjuntos/Pasted image 20260417173937.png",
-    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260412202806.png",
     "4to año/SO/practica/Practica 3 real/Adjuntos",
     "4to año/SO/practica/Practica 3 real",
     "4to año/FTC/practica/originales/FTC-2026---Trabajo-4.pdf",
     "4to año/FTC/practica/originales/FTC-2026---Trabajo-3.pdf",
     "4to año/FTC/practica/originales/FTC-2026---Trabajo-2.pdf",
-    "4to año/FTC/practica/Adjuntos/Pasted image 20260329202632.png",
     "Documento sin título",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260415191411.png",
     "4to año/FTC/Adjuntos",
     "4to año/bd2/teorias"
   ]

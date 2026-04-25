@@ -72,9 +72,32 @@ Se demuestra correctitud
 Sean TAUT y NOSAT los lenguajes de las fórmulas booleanas sin cuantificadores
 tautológicas (satisfactibles por todas las asignaciones de valores de verdad) e insatisfactibles (insatisfactibles por todas las asignaciones de valores de verdad). Encontrar una reducción de TAUT a NOSAT. Comentario: hay que definir la función de reducción y probar su total computabilidad y correctitud.
 
-(Falta hacer)
+-TAUT={fórmulas booleanas sin cuantificadores tautológicas (satisfactibles por todas las asignaciones de valores de verdad)}
+-NOSAT=insatisfactibles por todas las asignaciones de valores de verdad.
+-TAUT≤NOSAT del par ⟨M,w⟩∈TAUT -> f(⟨M,w⟩)∈NOSAT 
 
+f(w) = deberia de retornar el par de !w de modo que se reemplazan todos los valores de verdad por su opuesto (se niegan)
+
+total computabilidad:
+- La máquina leería la entrada w y escribiría un símbolo de negación delante de todo, efectivamente negando toda la fórmula y luego escribiendo el resultado en salida
+De esta forma, para toda entrada w, se genera una salida !w y siempre se detiene
+
+
+correctitud: 
+- Si w $\in$ TAUT entonces
+	- w es una fórmula válida, por lo que la función negará toda la fórmula booleana y esta siempre será falsa sin importar los valores de verdad asignados (porque si w pertenece a TAUT, entonces sin importar los valores de verdad asignados, siempre será verdadera)
+	- De esta forma, demostramos que f(w) $\in$ NOSAT
+- Si w $\notin$ TAUT entonces
+	- Si es una fórmula válida, que no pertenezca a TAUT implica que existe al menos una asignación de valores de verdad que evalúa a falso. La función hará que todas las asignaciones den falso, menos esa que dará verdadero. Debido a esto, la fórmula es satisfactible y f(w) $\notin$ NOSAT
+	- Si es una fórmula inválida, la función dará otra fórmula inválida, y como esta fórmula no es ni una fórmula booleana satisfactible ni insatisfactible válida, entonces f(w) $\notin$ NOSAT
 # Ejercicio 5. 
 Se prueba que existe una reducción de LUC a LƩ* (y así, como LUC ∉ RE, entonces se cumple que LƩ* ∉ RE). La reducción es la siguiente. Para toda w: f((M1, w)) = M2, tal que M2, a partir de su entrada v, ejecuta |v| pasos de M1 a partir de w, y acepta sii M1 no acepta. Probar que la función definida es efectivamente una reducción de LUC a LƩ*. Comentario: hay que probar su total computabilidad y correctitud.
 
-(Falta hacer)
+Total computabilidad
+- Es total computable debido a que para toda entrada, se produce una salida M2, no hay ejecución de código sino que le añade a la entrada la lógica para M2.
+
+Correctitud
+- Si (\<M1>, w) $\in L_{U}^C$ 
+	- Esto significa que M1 no acepta w. Por lo que M2 al ejecutar |v| pasos de M1 sobre w, como sabemos que M1 nunca acepta w ($L_{U}$ es los lenguajes que siempre aceptan, $L_{U}^C$ serian los que no aceptan), entonces tampoco lo hará M2 al ejecutar M1 sobre w con |v| pasos. Por lo tanto, M2 aceptará v dado que M1 nunca lo hará en |v| pasos. Por lo tanto \<M2> $\in$ $L_{\sum*}$ 
+- Si (\<M1>, w) $\notin L_{U}^C$ 
+	- Que no pertenezca a $L_{U}^C$ quiere decir que pertenece a $L_U$, por lo que M1 acepta la cadena w en una cantidad finita de pasos. Así que M2 llegará a la simulación viendo que M1 acepta en |v| cantidad de pasos, entonces M2 no aceptará v. Entonces \<M2> $\notin L_{\sum*}$

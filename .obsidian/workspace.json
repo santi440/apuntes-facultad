@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4c747e629d1ac30f",
+        "id": "59c5eb13efe4cfd5",
         "type": "tabs",
         "children": [
           {
-            "id": "51e67664d9eb1737",
+            "id": "ea916dbeca230d43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/FTC/practica/Practica 4.md",
+                "file": "4to año/FTC/practica/Practica 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practica 4"
+              "title": "Practica 6"
             }
           }
         ]
@@ -182,21 +182,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51e67664d9eb1737",
+  "active": "ea916dbeca230d43",
   "lastOpenFiles": [
-    "4to año/FTC/practica/practica 4.md",
+    "4to año/FTC/practica/practica 3.md",
+    "4to año/FTC/practica/Practica 6.md",
+    "4to año/FTC/practica/practica 5.md",
+    "Sin título.base",
     "4to año/FTC/practica/Practica 4.md",
-    "4to año/FTC/practica/Adjuntos/Pasted image 20260422221140.png",
-    "4to año/FTC/practica/Adjuntos/Pasted image 20260422220210.png",
-    "4to año/FTC/practica/Adjuntos/Pasted image 20260422215803.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260422182620.png",
+    "4to año/aspectos eticos/modulo 2/02 - Eficiencia en diferentes plataformas.md",
+    "4to año/bd2/teorias/06 - Mongo continue.md",
+    "4to año/bd2/teorias/05 - Bases relacionales vs no relacionales.md",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161652.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161038.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161017.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160955.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160655.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160134.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160059.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160020.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423155954.png",
+    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423155928.png",
+    "4to año/FTC/practica/practica 4.md",
     "4to año/SO/teoria/06 - Docker.md",
-    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422170618.png",
-    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422170029.png",
-    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165958.png",
-    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165928.png",
-    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165848.png",
-    "4to año/SO/practica/Practica 3 real/Adjuntos/Pasted image 20260422165616.png",
     "4to año/SO/practica/Practica 3 real/02 - Parte practica.md",
     "4to año/SO/practica/Practica 3 real/01- Parte teorica.md",
     "4to año/FTC/teoria/7 - espacio - tiempo.md",
@@ -219,16 +226,9 @@
     "4to año/bd2/practica 1/parte 3/Adjuntos",
     "4to año/bd2/practica 1/parte 3/42 - transacción.md",
     "4to año/bd2/practica 1/parte 3/41 - implementación.md",
-    "4to año/bd2/practica 1/parte 3/40 - Repository.md",
-    "4to año/bd2/practica 1/parte 3/39 - DAO vs Repository.md",
-    "4to año/bd2/practica 1/parte 2/38 - escalabilidad jerarquia.md",
     "4to año/bd2/practica 1/parte 3",
-    "4to año/bd2/practica 1/parte 2/37 - Impacto jerarquias relaciones.md",
-    "4to año/bd2/practica 1/parte 2/36 - Table_per_class.md",
-    "4to año/bd2/practica 1/parte 2/35 - Joined.md",
     "4to año/FTC/Adjuntos",
     "4to año/FTC/practica/originales/FinalACmar26.pdf",
-    "4to año/SO/practica/Practica 3 real/Adjuntos",
-    "4to año/SO/practica/Practica 3 real"
+    "4to año/SO/practica/Practica 3 real/Adjuntos"
   ]
 }

@@ -1,22 +1,24 @@
 {
   "main": {
-    "id": "1b5b5701d142a143",
+    "id": "7f0a74f41a06eb7b",
     "type": "split",
     "children": [
       {
-        "id": "59c5eb13efe4cfd5",
+        "id": "4c1c68407068883e",
         "type": "tabs",
         "children": [
           {
-            "id": "ea916dbeca230d43",
+            "id": "9a26e67508263b47",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "4to año/FTC/practica/Adjuntos/Pasted image 20260425232628.png"
+                "file": "4to año/SO/practica/Practica 4/ej 5.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260425232628"
+              "icon": "lucide-file",
+              "title": "ej 5"
             }
           }
         ]
@@ -25,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d79cbed95a84d2c0",
+    "id": "b1192df2c0a6807f",
     "type": "split",
     "children": [
       {
-        "id": "09456b719e0996c1",
+        "id": "7051263cd131c270",
         "type": "tabs",
         "children": [
           {
-            "id": "f1e2410a4e12c561",
+            "id": "909904e6d65d09b5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +48,7 @@
             }
           },
           {
-            "id": "abd0306c82c8bc9f",
+            "id": "05244916bc015854",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +65,7 @@
             }
           },
           {
-            "id": "da8ddf16a61f6687",
+            "id": "175d5908fa96985b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "c949a216266940f5",
+    "id": "3a653a93081cae8b",
     "type": "split",
     "children": [
       {
-        "id": "39aa9f72691695cc",
+        "id": "9d7a7b9eff205491",
         "type": "tabs",
         "children": [
           {
-            "id": "6908d4035db98218",
+            "id": "91288fab7718d742",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3er año/redes/Practica 2.md",
+                "file": "4to año/SO/practica/Practica 4/ej 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Practica 2"
+              "title": "Enlaces entrantes de ej 5"
             }
           },
           {
-            "id": "795c796a0dadc8a6",
+            "id": "9f4432de4601eca0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3er año/concu/Practica 3/ej7.md",
+                "file": "4to año/SO/practica/Practica 4/ej 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ej7"
+              "title": "Enlaces salientes de ej 5"
             }
           },
           {
-            "id": "b357cc6efbbc3d5d",
+            "id": "48682f8b5057a5da",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,36 +133,25 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "be63d86dbddb0a48",
+            "id": "89245b6be38f6351",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "4to año/FTC/practica/practica 2.md",
+                "file": "4to año/SO/practica/Practica 4/ej 5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of practica 2"
-            }
-          },
-          {
-            "id": "8a1ff06e59bd48ff",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Esquema de ej 5"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,53 +171,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1e2410a4e12c561",
-  "lastOpenFiles": [
-    "4to año/FTC/practica/Adjuntos/Pasted image 20260425232628 1.png",
-    "4to año/FTC/practica/Adjuntos/Pasted image 20260425232628.png",
-    "4to año/FTC/practica/Practica 7.md",
-    "4to año/FTC/practica/parciales/Parcial 2025.md",
-    "4to año/FTC/practica/parciales/Adjuntos/ftc 1er examen 2025.jpeg",
-    "4to año/FTC/practica/parciales/Adjuntos",
-    "4to año/Inge3/practica/Practica 1.md",
-    "4to año/FTC/practica/parciales",
-    "4to año/Inge3/practica",
-    "4to año/FTC/practica/Practica 6.md",
-    "4to año/FTC/practica/practica 3.md",
-    "4to año/FTC/practica/practica 5.md",
-    "Sin título.base",
-    "4to año/FTC/practica/Practica 4.md",
-    "4to año/aspectos eticos/modulo 2/02 - Eficiencia en diferentes plataformas.md",
-    "4to año/bd2/teorias/06 - Mongo continue.md",
-    "4to año/bd2/teorias/05 - Bases relacionales vs no relacionales.md",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161652.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161038.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161017.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160955.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160655.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160134.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160059.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160020.png",
-    "4to año/FTC/practica/practica 4.md",
-    "4to año/SO/teoria/06 - Docker.md",
-    "4to año/SO/practica/Practica 3 real/02 - Parte practica.md",
-    "4to año/SO/practica/Practica 3 real/01- Parte teorica.md",
-    "4to año/FTC/teoria/7 - espacio - tiempo.md",
-    "4to año/FTC/teoria/6- NP - completitud.md",
-    "3er año/redes/Adjuntos/Untitled.md",
-    "4to año/SO/practica/Practica 3 real/Parte teorica.md",
-    "4to año/SO/practica/Practica 3 real/Parte practica.md",
-    "4to año/FTC/NP - completitud.md",
-    "4to año/aspectos eticos/modulo 2/01- Eficiencia Energética.md",
-    "4to año/aspectos eticos/modulo 2/Adjuntos",
-    "4to año/aspectos eticos/modulo 1 IA/inteligencia artificial.md",
-    "4to año/aspectos eticos/modulo 1 IA",
-    "4to año/aspectos eticos/modulo 2",
-    "4to año/aspectos eticos/Adjuntos",
-    "2do año/ISO/07 - Memoria II.md",
-    "4to año/bd2/practica 1/parte 3/47 - SQL mejor en algunos caso.md",
-    "4to año/bd2/practica 1/parte 3/45 - HQL vs JPQL y SQL.md",
-    "4to año/bd2/practica 1/parte 3/Adjuntos",
-    "4to año/bd2/practica 1/parte 3"
-  ]
+  "active": "9a26e67508263b47",
+  "lastOpenFiles": []
 }

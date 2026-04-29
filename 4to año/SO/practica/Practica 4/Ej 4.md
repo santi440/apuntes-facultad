@@ -1,4 +1,0 @@
-¿Qué es la full virtualization? ¿Y la virtualización asistida por hardware?
-
-1. Full Virtualización: En la virtualización completa, el sistema operativo invitado (Guest) está **totalmente aislado** y no sabe que se está ejecutando en una máquina virtual. Cree que tiene acceso directo al hardware físico, cuando en realidad el hipervisor está mediando todo.
-2. Virtualización aislada del hardware: El procesador añade una nueva jerarquía de privilegios (a veces llamada "Anillo -1"). El hipervisor se sitúa ahí, y el hardware mismo se encarga de avisarle cuando una VM intenta hacer algo crítico. Ya no hace falta "traducir" el código por software; el procesador lo gestiona de forma nativa.

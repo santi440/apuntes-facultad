@@ -1,46 +1,24 @@
 {
   "main": {
-    "id": "7f0a74f41a06eb7b",
+    "id": "662d64aa74518344",
     "type": "split",
     "children": [
       {
-        "id": "4c1c68407068883e",
+        "id": "957cf28a1e92e3ea",
         "type": "tabs",
         "children": [
           {
-            "id": "9a26e67508263b47",
+            "id": "e4857d102f2ffe2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "4to año/SO/practica/Practica 4/Practica 4A.md",
-=======
-                "file": "4to año/FTC/practica/parciales/parcial 2025 2.md",
->>>>>>> Stashed changes
+                "file": "4to año/FTC/teoria/8 - logica proposicional.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "Practica 4A"
-=======
-              "title": "parcial 2025 2"
-            }
-          },
-          {
-            "id": "62c7b4e0814e3c09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4to año/FTC/practica/practica 5.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "practica 5"
->>>>>>> Stashed changes
+              "title": "8 - logica proposicional"
             }
           }
         ]
@@ -49,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b1192df2c0a6807f",
+    "id": "aee2e4255224382a",
     "type": "split",
     "children": [
       {
-        "id": "7051263cd131c270",
+        "id": "e6fcdb06d353d03a",
         "type": "tabs",
         "children": [
           {
-            "id": "909904e6d65d09b5",
+            "id": "ce60b5c049b5ff75",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -70,7 +48,7 @@
             }
           },
           {
-            "id": "05244916bc015854",
+            "id": "8339edf19ae352c7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -87,7 +65,7 @@
             }
           },
           {
-            "id": "175d5908fa96985b",
+            "id": "d095410cb5001386",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -100,23 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "3a653a93081cae8b",
+    "id": "d71602aa87b33095",
     "type": "split",
     "children": [
       {
-        "id": "9d7a7b9eff205491",
+        "id": "f1c41fb417e779cb",
         "type": "tabs",
         "children": [
           {
-            "id": "91288fab7718d742",
+            "id": "9befd0e5964e4fe5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4to año/FTC/practica/parciales/Parcial 2025.md",
+                "file": "4to año/FTC/teoria/8 - logica proposicional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Parcial 2025"
+              "title": "Enlaces entrantes de 8 - logica proposicional"
             }
           },
           {
-            "id": "9f4432de4601eca0",
+            "id": "a11e6177fb95aa88",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4to año/FTC/practica/parciales/Parcial 2025.md",
+                "file": "4to año/FTC/teoria/8 - logica proposicional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Parcial 2025"
+              "title": "Enlaces salientes de 8 - logica proposicional"
             }
           },
           {
-            "id": "48682f8b5057a5da",
+            "id": "6f8ed7a2035340a0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -159,18 +138,18 @@
             }
           },
           {
-            "id": "89245b6be38f6351",
+            "id": "e6327854413a1b68",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "4to año/FTC/practica/parciales/Parcial 2025.md",
+                "file": "4to año/FTC/teoria/8 - logica proposicional.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Parcial 2025"
+              "title": "Esquema de 8 - logica proposicional"
             }
           }
         ]
@@ -193,72 +172,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a26e67508263b47",
+  "active": "e4857d102f2ffe2d",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "4to año/SO/practica/Practica 4/Adjuntos/Pasted image 20260511105754.png",
-    "3er año/cplp/actividad random de tablita.md",
-    "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
-    "3er año/cplp/Clase 3.md",
-    "3er año/cplp/Clase 3 semantica operacional.md",
-    "3er año/cplp/Practica 5.md",
-    "3er año/cplp/primera practica cplp.md",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260511153708.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260511152139.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260511144753.png",
+    "4to año/FTC/teoria/Adjuntos/Pasted image 20260511143852.png",
     "4to año/SO/practica/Practica 4/Practica 4A.md",
-    "4to año/SO/practica/Practica 4/Adjuntos/Pasted image 20260427223905.png",
-    "4to año/SO/practica/Practica 4/ej 12 -  ahora si anda chroot.md",
-    "4to año/SO/practica/Practica 4/ej 11 - linux-vdso.so.1.md",
-    "4to año/SO/practica/Practica 4/ej 10 - mkdir.md",
-    "4to año/SO/practica/Practica 4/ej 9 - caso practivo chroot.md",
-    "4to año/SO/practica/Practica 4/ej 8- chroot.md",
-    "4to año/SO/practica/Practica 4/ej 7 - contenedores.md",
-    "4to año/SO/practica/Practica 4/ej 6 - paravirtualización.md",
-    "4to año/SO/practica/Practica 4/ej 5 - traduccion binaria o capturar y emular.md",
-    "4to año/SO/practica/Practica 4/Ej 4 - full virtualizacion y asistida.md",
-    "4to año/SO/practica/Practica 4/Ej 3 - hipervisor.md",
-    "4to año/SO/practica/Practica 4/Ej 2 - virtualizar vs emular.md",
-    "4to año/SO/practica/Practica 4/Sin título.md",
-    "4to año/SO/practica/Practica 4/Adjuntos/Pasted image 20260427213832.png",
-    "4to año/SO/practica/Practica 4/Adjuntos",
-    "4to año/FTC/practica/Adjuntos/Pasted image 20260425232628.png",
-    "4to año/SO/practica/Practica 4",
-    "4to año/FTC/practica/Adjuntos/Pasted image 20260425232628 1.png",
-=======
-    "4to año/FTC/practica/parciales/Parcial 2025 tcvp.md",
-    "4to año/FTC/practica/parciales/Parcial 2023.md",
-    "4to año/FTC/practica/parciales/Adjuntos/Pasted image 20260505083903.png",
-    "4to año/FTC/practica/parciales/Parcial 2024.md",
-    "4to año/FTC/practica/parciales/Adjuntos/Pasted image 20260505083238.png",
->>>>>>> Stashed changes
-    "4to año/FTC/practica/Practica 7.md",
-    "4to año/FTC/practica/Practica 6.md",
-    "4to año/FTC/practica/parciales/Adjuntos/Pasted image 20260505080051.png",
-    "4to año/FTC/teoria/6- NP - completitud.md",
-    "4to año/FTC/teoria/7 - espacio - tiempo.md",
-    "4to año/FTC/teoria/5 - P = NP.md",
-    "4to año/FTC/teoria/4- Reduccion.md",
-    "4to año/FTC/teoria/3- Indecibilidad.md",
-    "4to año/FTC/teoria/2-  jerarquia de la computabilidad.md",
-    "4to año/FTC/teoria/1- Maquinas de turing.md",
-    "4to año/FTC/practica/parciales/parcial 2025 2.md",
-    "4to año/FTC/practica/practica 5.md",
-<<<<<<< Updated upstream
-    "Sin título.base",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161652.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161038.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423161017.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160955.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos/Pasted image 20260423160655.png",
-    "4to año/aspectos eticos/modulo 2/Adjuntos",
-    "4to año/aspectos eticos/modulo 1 IA",
-    "4to año/aspectos eticos/modulo 2",
-    "4to año/aspectos eticos/Adjuntos"
-=======
-    "4to año/FTC/practica/parciales/Adjuntos/Pasted image 20260503142744.png",
-    "4to año/FTC/practica/practica 1.md",
-    "4to año/FTC/practica/practica 2.md",
-    "4to año/SO/practica/Practica 4/Practica 4.md",
-    "4to año/FTC/practica/parciales/Parcial 2025.md",
-    "4to año/SO/practica/Practica 4/ej 5.md"
->>>>>>> Stashed changes
+    "4to año/FTC/teoria/8 - logica proposicional.md"
   ]
 }

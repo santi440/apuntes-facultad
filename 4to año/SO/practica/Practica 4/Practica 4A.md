@@ -321,7 +321,6 @@ cat /sys/fs/cgroup/cgroup.subtree_control
 ```
 Para ver cuáles están habilitados específicamente para los procesos "hijos" de un grupo, mirá este archivo
 
-<<<<<<< Updated upstream:4to año/SO/practica/Practica 4/Practica 4A.md
 ### Ej 3 - rm controlador
 Analice qué sucede si se remueve un controlador de cgroups v1 (por ej. Umount /sys/fs/cgroup/rdma).
 #### 1. Desvinculación de la Jerarquía
@@ -485,8 +484,4 @@ esto (y lograr un comportamiento como los contenedores), ejecutar:
 unshare --pid --fork --mount-proc
 d. En el nuevo namespace ejecutar ps -ef. ¿Qué sucede ahora?
 e. Salir del namespace
-=======
-## Ej 3 - rm controlador
-Analice qué sucede si se remueve un controlador de cgroups v1 (por ej. Umount /sys/fs/cgroup/rdma).
->>>>>>> Stashed changes:4to año/SO/practica/Practica 4/Practica 4.md
 

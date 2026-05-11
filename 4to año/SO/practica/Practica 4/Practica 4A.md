@@ -455,33 +455,85 @@ comparten
 - Los cgroups imponen un límite **por grupo**, no por proceso individual. El kernel restringe al grupo `cpubaja` a un máximo del 30% del tiempo de CPU del core 0.
 - **Reparto interno:** El planificador de Linux (CFS) distribuye ese 30% disponible de forma equitativa entre todos los procesos que pertenezcan a ese cgroup específico. Como ambos procesos tienen la misma prioridad interna, reciben partes iguales del "pastel" limitado que tiene su contenedor.
 ## namespaces
-### 1
-Explique el concepto de namespaces.
+### 1 Explique el concepto de namespaces.
 
-### 2
-¿Cuáles son los posibles namespaces disponibles?
-### 3
-¿Cuáles son los namespaces de tipo Net, IPC y UTS una vez que inicie el sistema (los que
-se iniciaron la ejecutar la VM de la cátedra)?
-### 4
-¿Cuáles son los namespaces del proceso cron? Compare los namespaces net, ipc y uts con
-los del punto anterior, ¿son iguales o diferentes?
-### 5
-Usando el comando unshare crear un nuevo namespace de tipo UTS.
+A diferencia de los **cgroups** (que limitan _cuánto_ recurso puede usar un proceso), los **namespaces** determinan _qué_ puede ver el proceso. Actúan como una capa de aislamiento: un proceso dentro de un namespace cree que tiene su propia instancia de un recurso global, cuando en realidad está operando en una parcela aislada
+### 2 ¿Cuáles son los posibles namespaces disponibles?
+
+- **Mount (mnt):** Aisla los puntos de montaje del sistema de archivos.
+- **Process ID (pid):** Permite que un proceso sea el PID 1 dentro de su espacio, aislado de los PIDs globales.
+- **Network (net):** Aisla dispositivos de red, pilas de protocolos, puertos y tablas de ruteo.
+- **Inter-process Communication (ipc):** Aisla recursos como colas de mensajes y memoria compartida.
+- **UTS (UNIX Timesharing System):** Permite tener un hostname y nombre de dominio distintos.
+- **User (user):** Aisla IDs de usuario y grupo (un usuario normal puede ser "root" dentro del namespace).
+- **Control Group (cgroup):** Aisla la vista del directorio raíz de cgroups.
+- **Time:** Aisla los relojes del sistema (boottime y monotonic).
+### 3. ¿Cuáles son los namespaces de tipo Net, IPC y UTS una vez que inicie el sistema (los que se iniciaron la ejecutar la VM de la cátedra)?
+
+Para saber que NS hay:
+```bash
+lsns
+```
+
+lista:
+![[Pasted image 20260511190419.png]]
+### 4 ¿Cuáles son los namespaces del proceso cron? Compare los namespaces net, ipc y uts con los del punto anterior, ¿son iguales o diferentes?
+
+Para saber los ns de un proceso:
+```bash
+# Encontrar el PID 
+pidof cron 
+# Ver sus namespaces (reemplazar PID) 
+ls -l /proc/$(pidof cron)/ns/
+```
+
+![[Pasted image 20260511190626.png]]
+- `cron` es un demonio del sistema que se inicia durante el arranque. Al no ser un proceso diseñado para correr en un contenedor o sandbox específico, **hereda** los namespaces de su proceso padre (`systemd` / PID 1). En una instalación estándar de Linux, casi todos los servicios del sistema residen en el namespace global para poder interactuar con el hardware y la red real del equipo.
+> **SON IGUALES:** Salvo que utilices herramientas como `unshare` o `docker`, los procesos del sistema compartirán los mismos identificadores de namespace que viste al iniciar la VM.
+### 5 Usando el comando unshare crear un nuevo namespace de tipo UTS.
 a. unshare --uts sh (son dos (- -) guiones juntos antes de uts)
+
+Al ejecutar `unshare --uts sh`, estás creando un entorno donde el proceso actual tiene su propia copia aislada del identificador de sistema
+
 b. ¿Cuál es el nombre del host en el nuevo namespace? (comando hostname)
+
+so
+
 c. Ejecutar el comando lsns. ¿Qué puede ver con respecto a los namespace?.
+
+![[Pasted image 20260511191434.png]]
+Despues del segundo mnt son todos nuevos 
+
 d. Modificar el nombre del host en el nuevo hostname.
+Podés hacerlo con: `hostname nuevo-nombre`.
+![[Pasted image 20260511191548.png]]
 e. Abrir otra sesión, ¿cuál es el nombre del host anfitrión?
+
+![[Pasted image 20260511191640.png]]
+no cambia fuera del namespaces
+
 f. Salir del namespace (exit). ¿Qué sucedió con el nombre del host anfitrión?
-### 6
-Usando el comando unshare crear un nuevo namespace de tipo Net.
+regresas al entorno original y el nombre que cambiamos se perdió
+### 6 Usando el comando unshare crear un nuevo namespace de tipo Net.
 a. unshare –pid sh
 b. ¿Cuál es el PID del proceso sh en el namespace? ¿Y en el host anfitrión?
+![[Pasted image 20260511191947.png]]
+no se si se refiere a esto?
+
+![[Pasted image 20260511192127.png]]
+
+si ejecuto el ps -ef veo ambos, no es como que lo aislo realmente.
+
 c. Ayuda: los PIDs son iguales. Esto se debe a que en el nuevo namespace se
 sigue viendo el comando ps sigue viendo el /proc del host anfitrión. Para evitar
 esto (y lograr un comportamiento como los contenedores), ejecutar:
 unshare --pid --fork --mount-proc
+
 d. En el nuevo namespace ejecutar ps -ef. ¿Qué sucede ahora?
+![[Pasted image 20260511192257.png]]
+Al ejecutar este comando corregido, suceden tres cosas: se crea el namespace de PID, se hace un `fork` (necesario porque el proceso que crea el namespace no puede ser el PID 1) y se monta un nuevo `/proc` exclusivo para ese entorno.
+Al ejecutar `ps -ef` ahora sucede lo siguiente:
+- **Aislamiento total:** Solo verás dos o tres procesos en la lista.
+- **PID 1:** El shell (`sh`) ahora tiene el **PID 1**. Para este entorno, no existe nada más en el sistema; se comporta como si la máquina recién hubiera arrancado solo con ese proceso.
 e. Salir del namespace
 

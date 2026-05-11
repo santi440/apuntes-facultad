@@ -5,8 +5,7 @@ lectura?
 
 Se hace de solo lectura para que no tengamos que considerarla. Dada que la entrada que le damos a nuestra MT tiene un tamaño n, si consideramos la entrada como parte del espacio con el qeu podemos operar no tendriamos MT de espacio menos que lineal
 
-b. ¿Por qué si una MT tarda tiempo poly(n) entonces ocupa espacio poly(n), y si ocupa
-espacio poly(n) puede llegar a tardar tiempo exp(n)?
+b. ¿Por qué si una MT tarda tiempo poly(n) entonces ocupa espacio poly(n), y si ocupa espacio poly(n) puede llegar a tardar tiempo exp(n)?
 
 Si tarda tiempo poly(n) no tiene sentido que ocupe más espacio que poly(n) porque no le daria el tiempo para avanzar todas las posiciones de espacio. En un tiempo polinomial se puede recorrer T(n) celdas
 

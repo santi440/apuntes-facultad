@@ -302,7 +302,7 @@ Es la versión moderna (lanzada alrededor de 2016 pero estándar desde 2020-2021
 
 ### Ej 2 - controlador
 ¿Existe algún controlador disponible en cgroups v2? ¿Cómo puede determinarlo?
-### Controladores comunes en cgroups v2
+##### Controladores comunes en cgroups v2
 Los controladores más importantes que suelen estar disponibles son:
 - **cpu:** Regula la distribución de ciclos de CPU (pesos y límites máximos).
 - **memory:** Controla el uso de memoria RAM y swap.
@@ -321,5 +321,167 @@ cat /sys/fs/cgroup/cgroup.subtree_control
 ```
 Para ver cuáles están habilitados específicamente para los procesos "hijos" de un grupo, mirá este archivo
 
-## Ej 3 - rm controlador
+### Ej 3 - rm controlador
 Analice qué sucede si se remueve un controlador de cgroups v1 (por ej. Umount /sys/fs/cgroup/rdma).
+#### 1. Desvinculación de la Jerarquía
+Al ejecutar `umount /sys/fs/cgroup/rdma`, el kernel rompe el enlace entre la jerarquía de procesos que habías configurado y el sistema de archivos.
+- **Visibilidad:** Desaparece la estructura de directorios y los archivos de control (como `cgroup.procs` o archivos específicos de RDMA).
+- **Estado del Kernel:** El controlador **no se desactiva en el kernel**. Los contadores y las estructuras de datos internas siguen existiendo, pero ya no tienes una "ventana" para verlos o modificarlos.
+
+#### 2. Comportamiento de los Procesos
+Es vital entender que los procesos que estaban limitados o monitoreados por ese controlador **no se detienen**.
+- **Persistencia de Límites:** En cgroups v1, si un proceso estaba sujeto a una restricción de recursos, esta suele persistir en el kernel mientras el grupo tenga procesos asignados, incluso si el punto de montaje desaparece.
+- **Huérfanos de Control:** Pierdes la capacidad de mover procesos entre grupos o ajustar parámetros en tiempo real. Los procesos quedan en un estado de "limbo administrativo".
+
+#### 3. Impacto en el User-Space (Systemd y Orquestadores)
+La mayoría de las distribuciones modernas utilizan **systemd** para gestionar cgroups.
+- **Inconsistencia:** Systemd mantiene una base de datos interna de qué controladores están disponibles. Si desmontas uno manualmente, podrías causar errores en servicios que dependan de esa jerarquía.
+- **Errores de Aplicación:** Herramientas de monitoreo o contenedores (como Docker o Podman) que busquen el archivo `/sys/fs/cgroup/rdma/any_group/rdma.max` fallarán inmediatamente con un error de "File not found".
+#### 4. El Proceso de "Cleanup"
+Para que un controlador se libere completamente en el kernel (en v1), se deben cumplir dos condiciones:
+1. **Desmontar todas las instancias:** No debe haber ningún punto de montaje activo para ese controlador.
+2. **Eliminar todos los sub-cgroups:** Todos los grupos creados por el usuario deben estar vacíos de procesos y eliminados (`rmdir`).
+
+Si desmontas el FS pero dejas procesos vivos en sub-cgroups, el controlador sigue "activo" internamente, consumiendo una pequeña cantidad de memoria y manteniendo la lógica de control sobre esos procesos.
+
+### 4. nuevos cgroups
+ Crear dos cgroups dentro del subsistema cpu llamados cpualta y cpubaja. Controlar que se
+hayan creado tales directorios y ver si tienen algún contenido
+``` bash
+mkdir /sys/fs/cgroup/cpu/"nombre_cgroup"
+```
+
+![[Pasted image 20260511105754.png]]
+Al ser un subsistema de CPU, verás archivos específicos como:
+- `cpu.shares`: Determina el peso relativo de prioridad de CPU.
+- `cpu.cfs_period_us` y `cpu.cfs_quota_us`: Para configurar límites de tiempo de ejecución (hard limits).
+- `tasks`: Lista de los PIDs (IDs de procesos) que pertenecen a este grupo (estará vacío inicialmente).
+- `cgroup.procs`: Lista de IDs de hilos/procesos.
+### 5. version v1
+En base a lo realizado, ¿qué versión de cgroup se está utilizando?
+**cgroups v1**
+
+- **Jerarquías por controlador:** En tu comando usaste la ruta `/sys/fs/cgroup/cpu/`. En **v1**, cada recurso (CPU, memoria, dispositivos, etc.) tiene su propio directorio independiente. En la versión 2, todos los recursos se gestionan bajo una única jerarquía unificada (normalmente montada directamente en `/sys/fs/cgroup/` sin subdirectorios por recurso).
+- **Archivos de control específicos:** Al listar el contenido, mencionamos archivos como `cpu.shares` o `tasks`. Estos nombres son exclusivos de la versión 1. En la **v2**, los archivos tienen una nomenclatura distinta, como `cpu.weight` o `cgroup.threads`.
+- **Mecanismo de creación:** El uso de `mkdir` dentro de un subdirectorio de controlador específico para instanciar un grupo es el flujo de trabajo clásico de la primera generación de esta tecnología.
+
+### 6. limitar
+Indicar a cada uno de los cgroups creados en el paso anterior el porcentaje máximo de
+CPU que cada uno puede utilizar. El valor de cpu.shares en cada cgroup es 1024. El cgroup
+cpualta recibirá el 70 % de CPU y cpubaja el 30 %
+```bash
+echo 717 > /sys/fs/cgroup/cpu/cpualta/cpu.shares
+echo 307 > /sys/fs/cgroup/cpu/cpubaja/cpu.shares
+```
+### 7. punto al pedo
+Iniciar dos sesiones por ssh a la VM.(Se necesitan dos terminales, por lo cual, también
+podría ser realizado con dos terminales en un entorno gráfico). Referenciaremos a una
+terminal como termalta y a la otra, termbaja.
+
+### 8. taskset
+Usando el comando taskset, que permite ligar un proceso a un core en particular, se iniciará
+el siguiente proceso en background. Uno en cada terminal. Observar el PID asignado al
+proceso que es el valor de la columna 2 de la salida del comando.
+``` bash
+taskset -c 0 md5sum /dev/urandom &
+```
+### 9. Ver top
+Observar el uso de la CPU por cada uno de los procesos generados (con el comando top
+en otra terminal). ¿Qué porcentaje de CPU obtiene cada uno aproximadamente
+
+```bash
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1017 so        20   0    5476   1824   1696 R  51,3   0,0   0:46.75 md5sum  
+1016 root      20   0    5476   1820   1692 R  48,7   0,0   0:50.69 md5sum
+```
+
+casi 50% cada uno porque no tienen restriccion aun
+### 10. Limitar
+
+En cada una de las terminales agregar el proceso generado en el paso anterior a uno de los
+cgroup (termalta agregarla en el cgroup cpualta, termbaja en cpubaja. El process_pid es el
+que obtuvieron después de ejecutar el comando taskset)
+```bash
+echo "process_pid" > /sys/fs/cgroup/cpu/cpualta/cgroup.procs
+```
+### 11. uso cpu
+ Desde otra terminal observar cómo se comporta el uso de la CPU. ¿Qué porcentaje de CPU
+recibe cada uno de los procesos?
+
+```bash
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  
+1016 root      20   0    5476   1820   1692 R  71,4   0,0   3:32.18 md5sum  
+1017 so        20   0    5476   1824   1696 R  28,2   0,0   2:55.62 md5sum
+```
+se invirtieron los roles, ahora el 1016 (termalta) usa más cpu, ronda aprox en el 70% (baja y sube de ese numero pero no demasiado)
+
+### 12. Matar
+En termalta, eliminar el job creado (con el comando jobs ven los trabajos, con kill %1 lo
+eliminan. No se olviden del %.). ¿Qué sucede con el uso de la CPU?
+
+Ahora termbaja esta usando toda la cpu
+
+### 13. zzz
+Finalizar el otro proceso md5sum
+
+### 14. agregar terminal
+En este paso se agregarán a los cgroups creados los PIDs de las terminales (Importante: si
+se tienen que agregar los PID desde afuera de la terminal ejecute el comando `echo $$` dentro de la terminal para conocer el PID a agregar. Se debe agregar el PID del shell ejecutando en la terminal).
+```bash
+echo $$ > /sys/fs/cgroup/cpu/cpualta/cgroup.procs (termalta)
+echo $$ > /sys/fs/cgroup/cpu/cpubaja/cgroup.procs (termbaja)
+```
+(es necesario sacar lo ultimo)
+
+### 15. taskset
+Ejecutar nuevamente el comando taskset -c 0 md5sum /dev/urandom & en cada una de las
+terminales. ¿Qué sucede con el uso de la CPU? ¿Por qué?
+
+mantienen la relacion 70/30
+Porque en Linux, los procesos hijos **heredan** el cgroup de su proceso padre (el shell). Al mover la terminal al cgroup, cualquier comando que ejecutes en ella nacerá automáticamente dentro de `cpualta` o `cpubaja`
+
+### 16. otro hijito
+Si en termbaja ejecuta el comando: taskset -c 0md5sum /dev/urandom & (deben quedar 3
+comandos md5 ejecutando a la vez, 2 en el termbaja). ¿Qué sucede con el uso de la CPU?
+¿Por qué?
+
+```bash
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  
+1135 root      20   0    5476   1816   1688 R  69,8   0,0   2:14.60 md5sum  
+1162 root      20   0    5476   1848   1720 R  16,9   0,0   0:02.63 md5sum  
+1136 root      20   0    5476   1676   1548 R  13,3   0,0   0:52.43 md5sum
+```
+comparten 
+- Los cgroups imponen un límite **por grupo**, no por proceso individual. El kernel restringe al grupo `cpubaja` a un máximo del 30% del tiempo de CPU del core 0.
+- **Reparto interno:** El planificador de Linux (CFS) distribuye ese 30% disponible de forma equitativa entre todos los procesos que pertenezcan a ese cgroup específico. Como ambos procesos tienen la misma prioridad interna, reciben partes iguales del "pastel" limitado que tiene su contenedor.
+## namespaces
+### 1
+Explique el concepto de namespaces.
+
+### 2
+¿Cuáles son los posibles namespaces disponibles?
+### 3
+¿Cuáles son los namespaces de tipo Net, IPC y UTS una vez que inicie el sistema (los que
+se iniciaron la ejecutar la VM de la cátedra)?
+### 4
+¿Cuáles son los namespaces del proceso cron? Compare los namespaces net, ipc y uts con
+los del punto anterior, ¿son iguales o diferentes?
+### 5
+Usando el comando unshare crear un nuevo namespace de tipo UTS.
+a. unshare --uts sh (son dos (- -) guiones juntos antes de uts)
+b. ¿Cuál es el nombre del host en el nuevo namespace? (comando hostname)
+c. Ejecutar el comando lsns. ¿Qué puede ver con respecto a los namespace?.
+d. Modificar el nombre del host en el nuevo hostname.
+e. Abrir otra sesión, ¿cuál es el nombre del host anfitrión?
+f. Salir del namespace (exit). ¿Qué sucedió con el nombre del host anfitrión?
+### 6
+Usando el comando unshare crear un nuevo namespace de tipo Net.
+a. unshare –pid sh
+b. ¿Cuál es el PID del proceso sh en el namespace? ¿Y en el host anfitrión?
+c. Ayuda: los PIDs son iguales. Esto se debe a que en el nuevo namespace se
+sigue viendo el comando ps sigue viendo el /proc del host anfitrión. Para evitar
+esto (y lograr un comportamiento como los contenedores), ejecutar:
+unshare --pid --fork --mount-proc
+d. En el nuevo namespace ejecutar ps -ef. ¿Qué sucede ahora?
+e. Salir del namespace
+

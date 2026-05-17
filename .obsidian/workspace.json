@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ea916dbeca230d43",
+            "id": "b73903dfe89d424d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/SO/practica/practica 5/Practica 5.md",
+                "file": "4to año/bd2/practica/practica 2/parte 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practica 5"
+              "title": "parte 5"
             }
           }
         ]
@@ -182,8 +182,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea916dbeca230d43",
+  "active": "b73903dfe89d424d",
   "lastOpenFiles": [
+    "4to año/bd2/practica/practica 2/parte 4.md",
+    "4to año/bd2/practica/practica 2/parte 5.md",
+    "4to año/bd2/practica/practica 2/parte 3.md",
+    "4to año/bd2/practica/practica 2/parte 2.md",
+    "4to año/bd2/practica/practica 2/parte 1.md",
+    "4to año/bd2/practica/practica 2",
+    "4to año/bd2/practica",
+    "3er año/oo2/final/Design Patterns.md",
+    "3er año/oo2/final/Frameworks.md",
+    "3er año/oo2/final/Refactoring.md",
+    "README.md",
+    "4to año/SO/practica/practica 5/Practica 5.md",
     "4to año/SO/practica/practica 5/Adjuntos/Pasted image 20260514230625.png",
     "4to año/SO/practica/practica 5/Adjuntos/Pasted image 20260514223735.png",
     "4to año/SO/practica/practica 5/Adjuntos/Pasted image 20260514201927.png",
@@ -194,10 +206,8 @@
     "4to año/SO/practica/practica 5/Adjuntos/Pasted image 20260512205951.png",
     "4to año/SO/practica/practica 5/Adjuntos/Pasted image 20260512205832.png",
     "4to año/SO/practica/practica 5/Adjuntos/Pasted image 20260512205734.png",
-    "4to año/SO/practica/practica 5/Adjuntos/Pasted image 20260512205538.png",
     "4to año/SO/practica/practica 5/Adjuntos",
     "4to año/SO/practica/Practica 4/Practica 4A.md",
-    "4to año/SO/practica/practica 5/Practica 5.md",
     "4to año/SO/practica/practica 5",
     "4to año/FTC/teoria/8 - logica proposicional.md",
     "4to año/FTC/practica/parciales/parcial 2025 2.md",
@@ -214,21 +224,11 @@
     "4to año/SO/practica/Practica 4/ej 11 - linux-vdso.so.1.md",
     "4to año/SO/practica/Practica 4/ej 10 - mkdir.md",
     "4to año/SO/practica/Practica 4/ej 9 - caso practivo chroot.md",
-    "4to año/SO/practica/Practica 4/ej 8- chroot.md",
-    "4to año/SO/practica/Practica 4/ej 7 - contenedores.md",
-    "4to año/SO/practica/Practica 4/ej 6 - paravirtualización.md",
-    "4to año/SO/practica/Practica 4/ej 5 - traduccion binaria o capturar y emular.md",
-    "4to año/SO/practica/Practica 4/Ej 4 - full virtualizacion y asistida.md",
-    "4to año/SO/practica/Practica 4/Ej 3 - hipervisor.md",
-    "4to año/SO/practica/Practica 4/Ej 2 - virtualizar vs emular.md",
-    "4to año/SO/practica/Practica 4/Sin título.md",
     "4to año/SO/practica/Practica 4/Adjuntos",
     "4to año/SO/practica/Practica 4",
     "4to año/FTC/practica/parciales/Adjuntos",
     "4to año/FTC/practica/parciales",
     "4to año/Inge3/practica",
-    "Sin título.base",
-    "4to año/aspectos eticos/modulo 2/Adjuntos",
-    "4to año/aspectos eticos/modulo 1 IA"
+    "Sin título.base"
   ]
 }

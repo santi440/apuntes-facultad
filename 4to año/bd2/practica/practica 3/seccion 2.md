@@ -88,3 +88,64 @@ tours> db.recorridos.updateOne({nombre:'Cultural Odyssey'}, {$set: {totalKm:12}}
   upsertedCount: 0
 }
 ```
+14. Actualizar el listado de stops del recorrido "Delta Tour" para agregar "Tigre".
+    se puede hacer con $push o con $addToSet 
+``` bash
+    db.recorridos.updateOne(
+  { "nombre": "Delta Tour" },
+  { $addToSet: { "stops": "Tigre" } }
+)
+```
+15. Aumentar un 10% el precio de todos los recorridos.
+```bash
+db.recorridos.updateMany(
+  {},
+  { $mul: { "precio": 1.10 } }
+)
+```
+16. Eliminar el recorrido con nombre "Temporal Route".
+```bash
+db.recorridos.deleteOne(
+  { "nombre": "Temporal Route" }
+)
+```
+17. Crear el array de etiquetas (tags) para la ruta "Urban Exploration" y agregar el elemento "Gastronomia" a dicho arreglo.
+```bash
+    db.recorridos.updateOne( { "nombre": "Urban Exploration" }, { $push: { "tags": "Gastronomia" } } )
+``` 
+18. Obtener la ruta con nombre "Museum Tour". 
+```bash
+db.recorridos.find({ "nombre": "Museum Tour" }).pretty()
+```
+19. Las rutas con precio superior a $60.000. 
+```bash
+db.recorridos.find(
+  { "precio": { $gt: 60000 } }
+).pretty()
+```
+20. Las rutas con precio superior a $50.000 y con un total de kilometros mayor a 10.
+```bash
+db.recorridos.find({
+  "precio": { $gt: 50000 },
+  "totalKm": { $gt: 10 }
+}).pretty()
+```
+21. Las rutas que incluyan el stop "San Telmo".
+```bash
+db.recorridos.find(
+  { "stops": "San Telmo" }
+).pretty()
+```
+22. Las rutas que incluyan el stop "Recoleta" y no el stop "Plaza Italia".
+```bash
+db.recorridos.find({
+  "stops": "Recoleta",
+  "stops": { $ne: "Plaza Italia" }
+}).pretty()
+```
+23. El nombre y el total de km (si es que posee) de las rutas que incluyan el stop "Delta" y tengan un precio menor a $50.000.
+```bash
+db.recorridos.find({"stops": "Delta", "precio": {$lt: 50000}}, {"nombre": 1, "totalKm": 1, "_id":0})
+```
+24. Las rutas que incluyen tanto "San Telmo" como "Recoleta" y "Avenida de Mayo" entre sus stops.
+25. 

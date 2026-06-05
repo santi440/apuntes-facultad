@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "4to año/bd2/practica/practica 3/seccion 2.md",
+=======
+                "file": "4to año/SO/teoria/08 - interbloqueos.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "seccion 2"
+=======
+              "title": "08 - interbloqueos"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -78,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c949a216266940f5",
@@ -184,6 +193,7 @@
   },
   "active": "b73903dfe89d424d",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "4to año/bd2/practica/practica 3/Seccion 1.md",
     "4to año/bd2/practica/practica 3/seccion 2.md",
     "3er año/oo2/final/Refactoring to patterns.md",
@@ -191,6 +201,17 @@
     "3er año/oo2/final/Design Patterns.md",
     "4to año/SO/teoria/01- Intro.md",
     "4to año/bd2/practica/practica 3",
+=======
+    "4to año/SO/teoria/Adjuntos/Pasted image 20260603194019.png",
+    "4to año/SO/teoria/Adjuntos/Pasted image 20260603192852.png",
+    "4to año/SO/teoria/Adjuntos/Pasted image 20260603190800.png",
+    "util.md",
+    "4to año/SO/teoria/08 - interbloqueos.md",
+    "4to año/FTC/teoria/clases/10 - Cálculo de Enunciados L.md",
+    "4to año/FTC/teoria/clases/Adjuntos/Pasted image 20260601141833.png",
+    "4to año/FTC/teoria/clases/Adjuntos",
+    "4to año/SO/teoria/01- Intro.md",
+>>>>>>> Stashed changes
     "4to año/SO/teoria/07 - proteccion y seguridad.md",
     "4to año/SO/teoria/Adjuntos/Pasted image 20260520192828.png",
     "4to año/SO/teoria/Adjuntos/Pasted image 20260520192755.png",
@@ -199,10 +220,7 @@
     "4to año/SO/teoria/Adjuntos/Pasted image 20260520191603.png",
     "4to año/SO/teoria/Adjuntos/Pasted image 20260520190952.png",
     "4to año/SO/teoria/Adjuntos/Pasted image 20260520185807.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260520183430.png",
     "4to año/FTC/teoria/9- Equivalencias.md",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260518150957.png",
-    "4to año/FTC/teoria/Adjuntos/Pasted image 20260518144245.png",
     "4to año/FTC/practica/Practica 8.md",
     "4to año/bd2/practica/practica 2/parte 5.md",
     "4to año/bd2/practica/practica 2/parte 4.md",
@@ -224,7 +242,10 @@
     "4to año/FTC/practica/parciales/Parcial 2023.md",
     "3er año/cplp/actividad random de tablita.md",
     "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
+<<<<<<< Updated upstream
     "3er año/cplp/Clase 3.md",
+=======
+>>>>>>> Stashed changes
     "4to año/SO/practica/Practica 4/Adjuntos",
     "4to año/SO/practica/Practica 4",
     "4to año/FTC/practica/parciales/Adjuntos",

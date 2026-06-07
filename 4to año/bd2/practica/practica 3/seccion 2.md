@@ -148,4 +148,37 @@ db.recorridos.find({
 db.recorridos.find({"stops": "Delta", "precio": {$lt: 50000}}, {"nombre": 1, "totalKm": 1, "_id":0})
 ```
 24. Las rutas que incluyen tanto "San Telmo" como "Recoleta" y "Avenida de Mayo" entre sus stops.
-25. 
+```bash
+db.recorridos.find({
+   stops: { $all: ["San Telmo", "Recoleta", "Avenida de Mayo"] }
+})
+```
+25. Solo el nombre de las rutas que dispongan de mas de 5 stops.
+```bash
+db.recorridos.find(
+   { $expr: { $gt: [ { $size: "$stops" }, 5 ] } }, 
+   { nombre: 1, _id: 0 }
+ )
+```
+26. Las rutas que no tengan definido el total de sus kilometros.
+```bash
+db.recorridos.find({ 
+  totalKm: { $exists: false } 
+})
+
+---
+db.recorridos.find({ 
+  totalKm: null 
+})
+```
+27. Los nombres y el listado de stops de aquellas rutas que incluyen algun museo en sus recorridos.
+```bash
+db.recorridos.find(
+  { stops: { $regex: /museo/i } },
+  { nombre: 1, stops: 1, _id: 0 }
+)
+```
+28. La cantidad total de elementos que posee la coleccion.
+```bash
+db.recorridos.find().count()
+```

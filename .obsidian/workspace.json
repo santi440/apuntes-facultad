@@ -1,32 +1,24 @@
 {
   "main": {
-    "id": "1b5b5701d142a143",
+    "id": "6d752488af3e9fb0",
     "type": "split",
     "children": [
       {
-        "id": "59c5eb13efe4cfd5",
+        "id": "213ba477ad49d076",
         "type": "tabs",
         "children": [
           {
-            "id": "b73903dfe89d424d",
+            "id": "34e37dfbae53856d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "4to año/bd2/practica/practica 3/seccion 2.md",
-=======
-                "file": "4to año/SO/teoria/08 - interbloqueos.md",
->>>>>>> Stashed changes
+                "file": "4to año/bd2/practica/practica 3/seccion 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "seccion 2"
-=======
-              "title": "08 - interbloqueos"
->>>>>>> Stashed changes
+              "title": "seccion 3"
             }
           }
         ]
@@ -35,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d79cbed95a84d2c0",
+    "id": "fa4b469a1f9e0d33",
     "type": "split",
     "children": [
       {
-        "id": "09456b719e0996c1",
+        "id": "c7a22601091f292d",
         "type": "tabs",
         "children": [
           {
-            "id": "f1e2410a4e12c561",
+            "id": "e9b2882453938aaa",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +48,7 @@
             }
           },
           {
-            "id": "abd0306c82c8bc9f",
+            "id": "167330e9fe6c08d1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,7 +65,7 @@
             }
           },
           {
-            "id": "da8ddf16a61f6687",
+            "id": "8ebbbe685f303f76",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -86,24 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "c949a216266940f5",
+    "id": "477e765936090b33",
     "type": "split",
     "children": [
       {
-        "id": "39aa9f72691695cc",
+        "id": "875c7a1ba2fccf72",
         "type": "tabs",
         "children": [
           {
-            "id": "6908d4035db98218",
+            "id": "f80549cfb76c2d95",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3er año/redes/Practica 2.md",
+                "file": "4to año/bd2/practica/practica 3/seccion 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Practica 2"
+              "title": "Enlaces entrantes de seccion 3"
             }
           },
           {
-            "id": "795c796a0dadc8a6",
+            "id": "663219fbb6892f1a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3er año/concu/Practica 3/ej7.md",
+                "file": "4to año/bd2/practica/practica 3/seccion 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ej7"
+              "title": "Enlaces salientes de seccion 3"
             }
           },
           {
-            "id": "b357cc6efbbc3d5d",
+            "id": "65a70c7a9b8a3392",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,36 +133,25 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "be63d86dbddb0a48",
+            "id": "b99d163a2c3c5eb3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "4to año/FTC/practica/practica 2.md",
+                "file": "4to año/bd2/practica/practica 3/seccion 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of practica 2"
-            }
-          },
-          {
-            "id": "8a1ff06e59bd48ff",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Esquema de seccion 3"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,65 +171,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b73903dfe89d424d",
+  "active": "34e37dfbae53856d",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "4to año/bd2/practica/practica 3/Seccion 1.md",
-    "4to año/bd2/practica/practica 3/seccion 2.md",
-    "3er año/oo2/final/Refactoring to patterns.md",
-    "3er año/oo2/final/Refactoring.md",
-    "3er año/oo2/final/Design Patterns.md",
-    "4to año/SO/teoria/01- Intro.md",
-    "4to año/bd2/practica/practica 3",
-=======
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260603194019.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260603192852.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260603190800.png",
-    "util.md",
-    "4to año/SO/teoria/08 - interbloqueos.md",
-    "4to año/FTC/teoria/clases/10 - Cálculo de Enunciados L.md",
-    "4to año/FTC/teoria/clases/Adjuntos/Pasted image 20260601141833.png",
-    "4to año/FTC/teoria/clases/Adjuntos",
-    "4to año/SO/teoria/01- Intro.md",
->>>>>>> Stashed changes
-    "4to año/SO/teoria/07 - proteccion y seguridad.md",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260520192828.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260520192755.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260520192450.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260520191612.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260520191603.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260520190952.png",
-    "4to año/SO/teoria/Adjuntos/Pasted image 20260520185807.png",
-    "4to año/FTC/teoria/9- Equivalencias.md",
-    "4to año/FTC/practica/Practica 8.md",
-    "4to año/bd2/practica/practica 2/parte 5.md",
-    "4to año/bd2/practica/practica 2/parte 4.md",
-    "4to año/bd2/practica/practica 2/parte 3.md",
-    "4to año/bd2/practica/practica 2/parte 2.md",
-    "4to año/bd2/practica/practica 2/parte 1.md",
-    "4to año/bd2/practica/practica 2",
-    "4to año/bd2/practica",
-    "3er año/oo2/final/Frameworks.md",
-    "README.md",
-    "4to año/SO/practica/practica 5/Practica 5.md",
-    "4to año/SO/practica/practica 5/Adjuntos",
-    "4to año/SO/practica/Practica 4/Practica 4A.md",
-    "4to año/SO/practica/practica 5",
-    "4to año/FTC/teoria/8 - logica proposicional.md",
-    "4to año/FTC/practica/parciales/parcial 2025 2.md",
-    "4to año/FTC/practica/parciales/Parcial 2025 tcvp.md",
-    "4to año/FTC/practica/parciales/Parcial 2024.md",
-    "4to año/FTC/practica/parciales/Parcial 2023.md",
-    "3er año/cplp/actividad random de tablita.md",
-    "3er año/cplp/Clase 1 Introducción Sintaxis y semántica.md",
-<<<<<<< Updated upstream
-    "3er año/cplp/Clase 3.md",
-=======
->>>>>>> Stashed changes
-    "4to año/SO/practica/Practica 4/Adjuntos",
-    "4to año/SO/practica/Practica 4",
-    "4to año/FTC/practica/parciales/Adjuntos",
-    "4to año/FTC/practica/parciales",
-    "4to año/Inge3/practica"
+    "4to año/bd2/teorias/teoria 4 - Spring JPA.md",
+    "4to año/bd2/practica/practica 3/seccion 3.md",
+    "4to año/bd2/practica/practica 3/seccion 2.md"
   ]
 }

@@ -47,8 +47,7 @@ Esto se implementa a través de **JSON Schema Validation** (`$jsonSchema`). A ni
 - **Restricciones de Valores:** Exigir que un string cumpla con una expresión regular (Regex) o que un número caiga dentro de un rango específico.
 - **Niveles de Validación:** Puedes configurar si un documento que falla la validación es rechazado por completo (`strict`) o si simplemente se registra un warning en los logs del sistema (`moderate`), lo cual es útil cuando auditas o migras bases de datos legacy.
 
-4. MongoDB tiene soporte para transacciones, pero no es igual que el de los RDBMS.
-¿Cual es el alcance de una transaccion en MongoDB?
+4. MongoDB tiene soporte para transacciones, pero no es igual que el de los RDBMS. ¿Cual es el alcance de una transaccion en MongoDB?
 
 MongoDB fue diseñado originalmente bajo la premisa de que **la actualización de un único documento es siempre atómica**.
 
@@ -59,10 +58,7 @@ Sin embargo, a medida que los sistemas evolucionaron, MongoDB incorporó soporte
 - Si una de las operaciones falla, toda la transacción hace un _rollback_ (se deshace). Si todas tienen éxito, se hace un _commit_ (se aplican todas juntas).
 **La gran diferencia con RDBMS:** En SQL, normalizamos al máximo y usamos transacciones constantemente para actualizar tres o cuatro tablas al mismo tiempo (ej. `Facturas`, `Items_Factura`, `Inventario`). En MongoDB, el motor está optimizado para operaciones de un solo documento. Las transacciones multidocumento implican un bloqueo (_lock_) y un alto costo de rendimiento. La recomendación oficial es **no depender de las transacciones para el diseño diario**, sino modelar los datos para que las actualizaciones conjuntas ocurran dentro de un mismo documento (embebido) y reservar las transacciones solo para casos críticos, como transferencias de saldos en sistemas financieros.
 
-5. Las relaciones entre documentos en MongoDB pueden establecerse mediante
-documentos embebidos o referencias. Investigar como se implementa cada una y
-analizar las ventajas y desventajas de cada una, comparandola con la forma estandar de
-establecer relaciones en una base de datos relacional.
+5. Las relaciones entre documentos en MongoDB pueden establecerse mediante documentos embebidos o referencias. Investigar como se implementa cada una y analizar las ventajas y desventajas de cada una, comparandola con la forma estandar de establecer relaciones en una base de datos relacional.
 
 #### A. Documentos Embebidos (Desnormalización)
 
@@ -95,10 +91,7 @@ Se almacena únicamente el `_id` del documento relacionado, el cual vive en su p
     ```
 - **Ventajas:** Evita la duplicación de datos. Soluciona el problema de los arrays infinitos y respeta el límite de 16MB. Es ideal para relaciones muchos a muchos o jerarquías complejas.
 - **Desventajas:** Para obtener los datos completos, la API (por ejemplo, tu backend) debe hacer múltiples peticiones a la base de datos, o debes usar el operador `$lookup` en un _pipeline_ de agregación, lo cual consume más CPU y tiempo de respuesta.
-6. Tomando como referencia el modelo de los trabajos practicos anteriores y suponiendo
-que este podria mapearse a una base de datos en MongoDB, proponer algunos casos
-donde la relacion seria conveniente mapearla como referencia y otros como documentos
-embebidos. Justificar la eleccion
+6. Tomando como referencia el modelo de los trabajos practicos anteriores y suponiendo que este podria mapearse a una base de datos en MongoDB, proponer algunos casos donde la relacion seria conveniente mapearla como referencia y otros como documentos embebidos. Justificar la eleccion
 
 | Relación                                 | Estrategia     | Motivo clave                                                           |
 | ---------------------------------------- | -------------- | ---------------------------------------------------------------------- |

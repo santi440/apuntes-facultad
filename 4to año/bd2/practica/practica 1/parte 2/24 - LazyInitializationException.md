@@ -1,6 +1,4 @@
-¿Cómo podría producirse una LazyInitializationException en el modelo? Investigue de qué
-representa esta excepción y escribir un escenario concreto explicando al menos formas de
-resolverlo sin cambiar el FetchType a EAGER.
+¿Cómo podría producirse una LazyInitializationException en el modelo? Investigue de qué representa esta excepción y escribir un escenario concreto explicando al menos formas de resolverlo sin cambiar el FetchType a EAGER.
 
 Ocurre cuando intentas acceder a una relación marcada como `FetchType.LAZY` en una entidad que está **"detached"** (desconectada).
 

@@ -373,3 +373,6 @@ d) Genere el mapa de los stakeholder y justifique su elección.
 - **Gestión Atenta (RR.HH. y Finanzas):** Son quienes financian y definen el éxito del proyecto (reducción de costos vs. bienestar). Su alineación es vital para evitar el fracaso por falta de presupuesto o dirección.
 - **Mantener Satisfechos (Legal y CISO):** Aunque no operan el sistema diariamente, tienen el poder de veto por incumplimiento normativo. Sus requisitos de auditoría son restricciones no negociables. 
 - **Mantener Informados (Empleados):** Su interés es alto porque afecta su vida diaria, pero su poder individual para cambiar el software es bajo. La transparencia aquí reduce el riesgo de baja adopción.
+
+
+

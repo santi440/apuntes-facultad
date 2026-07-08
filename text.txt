@@ -1,0 +1,80 @@
+1. Sistema y finalidad: el sistema evaluado es una herramienta corporativa de asistencia a la programación basada en IA generativa. El problema técnico que busca resolver es acelerar el desarrollo de software, autocompletando y generando código, pruebas y documentación, para así reducir el tiempo dedicado a tareas repetitivas. El problema organizacional y social que busca resolver es mejorar la productividad de los equipos, estandarizar prácticas de código y facilitar el ingreso de desarrolladores nuevos.
+- La herramienta se dirige a los desarrolladores de la organización (perfiles junior y senior), a los líderes técnicos y a los equipos de calidad (QA). De forma indirecta afecta a la organización como titular del código y de la propiedad intelectual, a los clientes y usuarios finales del software producido y también a los autores de código de terceros cuyo material pudo integrarse al modelo durante su entrenamiento.
+Conviene aclarar que la IA es útil pero no imprescindible: parte de estas necesidades podría cubrirse con capacitación, plantillas y automatizaciones sin IA. Por eso su adopción debe ser proporcional y controlada y no un fin en sí mismo. Además, el modelo se contrata ??? como servicio comercial, así que funciona en buena parte como caja negra: la organización controla la integración, los prompts y los registros locales, pero no el modelo, su dataset ni su alineamiento. Como enseña la cátedra, a mayor autonomía e impacto de las acciones, menor debe ser la tolerancia a la opacidad -> en este caso la autonomía es baja, porque el sistema propone y la persona decide.
+- Límites de uso (qué no debe hacer el sistema):
+Incorporar código a los repositorios o a producción sin revisión humana. La responsabilidad sobre la correctitud, la seguridad y las licencias del código sigue siendo del desarrollador.
+Enviar secretos, credenciales, datos personales o código confidencial al proveedor sin base contractual, anonimización ni control.
+Ejecutar acciones por su cuenta, como commits, despliegues o borrado de datos, sin autorización humana explícita.
+Usarse para vigilar o evaluar la productividad individual de los desarrolladores.
+Reemplazar los controles de calidad y seguridad que ya existen, en lugar de integrarse a ellos.
+
+2. Riesgos principales: los riesgos sociotécnicos se clasifican en las cinco categorías del módulo, combinando los ejes clave del caso (seguridad del código, propiedad intelectual y dependencia cognitiva) con los riesgos de la IA generativa aplicada al trabajo informático vistos en clase ????.
+Gobernanza de datos: existe riesgo de fuga de código propietario, secretos o datos de clientes que se envían al proveedor como parte del contexto, y que este puede retener o usar para entrenar. Un ejemplo típico es un desarrollador que pega una función con credenciales embebidas para pedir una mejora. El riesgo se agrava con el uso de herramientas no autorizadas (Shadow AI) y con la falta de trazabilidad sobre qué información sale de la organización, con qué base y por cuánto tiempo se conserva.
+Sesgos y equidad: el modelo reproduce los patrones de su corpus de entrenamiento, por lo que puede sugerir soluciones inseguras u obsoletas y funcionar peor en lenguajes, dominios o idiomas poco representados. En el plano interno, la ayuda se concentra en las tareas más frecuentes y menos en las especializadas, y las métricas de productividad pueden perjudicar a quienes revisan más o trabajan sobre componentes críticos.
+Ciberseguridad: la herramienta puede generar código vulnerable o mal comprendido que se integra sin control, por ejemplo con inyección SQL, validación insuficiente de entradas o secretos escritos en el código. Hay riesgo de inyección de prompts, es decir instrucciones ocultas en documentación o dependencias que el asistente procesa como órdenes, y de que sugiera paquetes inexistentes que un atacante puede registrar para atacar la cadena de suministro. El plugin y sus credenciales de acceso al repositorio amplían la superficie de ataque.
+Impacto en el trabajo humano: aparece la pérdida progresiva de habilidades y la dependencia cognitiva, sobre todo en los perfiles junior, que pueden dejar de saber escribir y depurar código por su cuenta. Cuando las métricas premian la velocidad, se favorece la aceptación de sugerencias sin revisión. Cambian los roles, los tiempos y los saberes, y con ello quién decide, quién aprende y quién responde por el resultado.
+Consecuencias sociales: el código generado puede reproducir fragmentos con licencias restrictivas (por ejemplo copyleft), lo que genera riesgo legal y de propiedad intelectual y una autoría poco clara sobre el producto final. También puede degradar la calidad y la seguridad del software que llega a los clientes y usuarios finales, con impacto en la confianza y en la confidencialidad frente a terceros.
+
+3. Evaluación mediante rúbrica: se evalúan las dimensiones vistas en clase con la escala 0 a 3 (0 Crítico, 1 Inicial, 2 Adecuado, 3 Avanzado), tomando el sistema tal como se propone hoy, antes de aplicar controles.
+Dimensión
+Nota
+Justificación breve
+Finalidad y necesidad
+3
+El problema es legítimo y la IA aporta valor real como apoyo, aunque no sea imprescindible.
+Derechos y cumplimiento
+1
+No hay un marco claro de licencias ni de propiedad intelectual sobre el código generado.
+Privacidad y datos
+1
+Riesgo de enviar código y datos al proveedor sin base contractual ni control de lo que sale.
+Transparencia
+2
+Se sabe cuándo interviene la IA, pero faltan límites de uso y documentación comunicados.
+Equidad
+2
+Los sesgos del modelo están presentes, con un impacto acotado en este uso interno.
+Robustez y seguridad
+1
+Código vulnerable, inyección de prompts y cadena de suministro sin controles definidos.
+Supervisión humana
+2
+La persona conserva la decisión, pero falta un protocolo formal de revisión y tiempos.
+Impacto laboral y deskilling
+1
+No hay medidas frente a la dependencia cognitiva ni a la aceptación acrítica.
+Responsabilidad
+1
+No está definido quién responde ni quién puede aceptar el riesgo residual.
+Monitoreo y reversibilidad
+1
+No hay indicadores de seguimiento ni un plan para desactivar la herramienta.
+
+Puntaje total: 15 sobre 30. El resultado se ubica en la franja baja, con predominio de niveles Inicial y Adecuado y sin ninguna dimensión en estado Crítico. Como señala la cátedra, el puntaje informa pero la decisión la fija el juicio profesional, y no todo se compensa con un promedio.
+
+4. Análisis de criterios de veto: condiciones críticas de no autorización definidas en el módulo:
+Finalidad ilegal o desproporcionada: no se activa. La finalidad es legítima y proporcional.
+Discriminación grave no mitigada: no se activa. Los sesgos existen pero no producen una discriminación grave en este uso.
+Decisión de alto impacto sin apelación: no se activa, porque el sistema es de apoyo y la persona toma la decisión.
+Falta de base válida para datos personales o confidenciales: condición crítica presente. Enviar datos personales o código confidencial al proveedor sin base contractual ni control activaría el veto.
+Nadie con autoridad real para detener el sistema: condición crítica presente. Hoy no hay un responsable designado que pueda suspender el uso.
+Proveedor que impide auditar: riesgo parcial. El modelo es caja negra, por lo que debe compensarse con cláusulas de auditoría, límites y monitoreo.
+No se activa un veto absoluto, pero las dos condiciones críticas señaladas deben corregirse de forma obligatoria antes de pasar a producción: contratar el servicio con una base y controles adecuados para los datos, y designar a una persona con autoridad para suspender el sistema.
+
+5. Controles propuestos.
+- Medidas técnicas:
+Contratar una versión con no retención de datos y sin uso de la información para entrenamiento, para mitigar la fuga de datos.
+Bloquear el envío de secretos y anonimizar el contexto mediante escaneo de secretos antes de enviarlo al modelo.
+Exigir análisis estático de seguridad (SAST) y análisis de dependencias (SCA) sobre todo el código generado, para detectar vulnerabilidades.
+Usar una lista de dependencias permitidas para evitar paquetes falsos, y separar las instrucciones del sistema de las entradas no confiables para frenar la inyección de prompts.
+Registrar prompts, respuestas y acciones del asistente para poder auditar y detectar anomalías.
+
+- Medidas humanas y organizacionales:
+Revisión humana obligatoria del código antes de integrarlo, como supervisión significativa y no como un simple visto bueno rápido.
+Política de uso responsable que prohíba el Shadow AI, con capacitación al equipo sobre los límites de la herramienta.
+Métricas de trabajo que no premien la aceptación sin revisión, para no incentivar el deskilling.
+Matriz de responsabilidades (RACI) con una persona que pueda aceptar el riesgo y suspender el sistema, y un canal para reportar problemas.
+Cláusulas de auditoría y salida con el proveedor, y un plan para desactivar la herramienta si aparecen incidentes.
+
+6. Decisión final: Aprobado con condiciones -> el sistema tiene una finalidad legítima, es de apoyo y mantiene a la persona a cargo de la decisión, con una autonomía baja, y no activa un veto absoluto. Por eso no corresponde suspenderlo ni rechazarlo. Sin embargo, la rúbrica muestra riesgos altos y todavía sin cubrir en datos, propiedad intelectual y seguridad, por lo que tampoco puede aprobarse sin más. La opción proporcional es autorizarlo condicionado ???? a implementar antes de producción los controles del punto 5, en especial la versión sin retención de datos, la revisión humana obligatoria, el análisis de seguridad del código generado y la designación de un responsable con autoridad para suspenderlo.
+Como condiciones de seguimiento se propone revisar el uso a los 3 meses con indicadores de calidad y seguridad del código, de incidentes y de dependencia del equipo, y mantener la posibilidad de desactivar la herramienta si esos indicadores empeoran.

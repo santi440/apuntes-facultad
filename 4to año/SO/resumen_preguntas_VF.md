@@ -4,14 +4,14 @@
 
 ## 1. Hilos: ULT vs KLT
 
-| Concepto | ULT (User-Level Threads) | KLT (Kernel-Level Threads) |
-|---|---|---|
-| Quién los gestiona | Librería de usuario (sin que el kernel lo sepa) | El kernel directamente |
-| Modelo | N:1 (varios ULT → 1 KLT) | 1:1 (cada hilo = 1 KLT) |
-| ¿El kernel los conoce? | No | Sí |
-| Syscall bloqueante | Bloquea **todo el proceso** | Bloquea **solo ese hilo** |
-| Paralelismo real | No (el proceso se ve como 1 unidad) | Sí (pueden ejecutar en distintos núcleos) |
-| Planificación | Round-Robin, prioridades, cooperativo (non-preemptive) | Planificador del kernel (scheduler) |
+| Concepto               | ULT (User-Level Threads)                               | KLT (Kernel-Level Threads)                |
+| ---------------------- | ------------------------------------------------------ | ----------------------------------------- |
+| Quién los gestiona     | Librería de usuario (sin que el kernel lo sepa)        | El kernel directamente                    |
+| Modelo                 | N:1 (varios ULT → 1 KLT)                               | 1:1 (cada hilo = 1 KLT)                   |
+| ¿El kernel los conoce? | No                                                     | Sí                                        |
+| Syscall bloqueante     | Bloquea **todo el proceso**                            | Bloquea **solo ese hilo**                 |
+| Paralelismo real       | No (el proceso se ve como 1 unidad)                    | Sí (pueden ejecutar en distintos núcleos) |
+| Planificación          | Round-Robin, prioridades, cooperativo (non-preemptive) | Planificador del kernel (scheduler)       |
 
 ### Mecanismos de sincronización
 - `pthread_mutex_t` — mutex

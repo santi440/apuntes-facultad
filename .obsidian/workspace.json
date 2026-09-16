@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4to año/syo/1- conceptos básicos.md",
+                "file": "4to año/mate 4/tp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1- conceptos básicos"
+              "title": "tp"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "477e765936090b33",
@@ -178,12 +177,13 @@
   },
   "active": "34e37dfbae53856d",
   "lastOpenFiles": [
+    "4to año/syo/1- conceptos básicos.md",
+    "4to año/mate 4/tp.md",
     "4to año/syo/Adjuntos/Pasted image 20260831191340.png",
     "4to año/syo/Adjuntos/Pasted image 20260831190601.png",
     "4to año/syo/Adjuntos/Pasted image 20260831190300.png",
     "4to año/syo/Adjuntos/Pasted image 20260831185358.png",
     "3er año/BD1/Mega resumen.md",
-    "4to año/syo/1- conceptos básicos.md",
     "4to año/syo/Adjuntos/Pasted image 20260831183053.png",
     "4to año/syo/Adjuntos",
     "4to año/mate 4/diferenciabilidad.md",
@@ -217,7 +217,6 @@
     "4to año/bd2/adicional/Prácticas/Práctica 4/images/Pasted image 20260530144915.png",
     "4to año/bd2/adicional/Prácticas/Práctica 4/images/Pasted image 20260530144858.png",
     "4to año/bd2/adicional/Prácticas/Práctica 4/images/Pasted image 20260530144835.png",
-    "4to año/bd2/adicional/Prácticas/Práctica 4/images/Pasted image 20260530144649.png",
     "4to año/bd2/adicional/Prácticas/Práctica 4/Práctica 4 Resuelta.md",
     "4to año/bd2/adicional/Prácticas/Práctica 3/Práctica 3 Resuelta.md",
     "4to año/bd2/adicional/Prácticas/Práctica 1/Práctica 1 resuelta.md",
